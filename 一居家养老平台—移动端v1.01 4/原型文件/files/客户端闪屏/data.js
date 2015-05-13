@@ -1,0 +1,213 @@
+﻿$axure.loadCurrentPage({
+  "url":"客户端闪屏.html",
+  "generationDate":new Date(1429966253065.16),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"b9671edaafe34753bfddddb5c3f5d9bd",
+    "type":"Axure:Page",
+    "name":"客户端闪屏",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"21b082eb7ced4bdb81b3f1a571a6b2e2",
+          "label":"",
+          "type":"referenceDiagramObject",
+          "styleType":"referenceDiagramObject",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":20,
+              "y":10}},
+          "adaptiveStyles":{
+},
+          "masterId":"841c00d307d9455a96e8cb7f2f6f94d4"},
+{
+          "id":"9c2f41353cc34a48a110cd81670b052d",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":70,
+              "y":110},
+            "size":{
+              "width":330,
+              "height":460}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"43e6696012074d0bb5c6b765d09c79c7",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":70,
+                  "y":110},
+                "size":{
+                  "width":330,
+                  "height":460}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 首页",
+                      "target":{
+                        "targetType":"page",
+                        "url":"首页.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/客户端闪屏/u6.jpg"}}]}},
+  "masters":{
+    "841c00d307d9455a96e8cb7f2f6f94d4":{
+      "packageId":"841c00d307d9455a96e8cb7f2f6f94d4",
+      "type":"Axure:Master",
+      "name":"安卓外壳修",
+      "notes":{
+},
+      "style":{
+        "baseStyle":"627587b6038d43cca051c114ac41ad32",
+        "pageAlignment":"near",
+        "fill":{
+          "fillType":"solid",
+          "color":0xFFFFFFFF},
+        "image":null,
+        "imageHorizontalAlignment":"near",
+        "imageVerticalAlignment":"near",
+        "imageRepeat":"auto",
+        "favicon":null,
+        "sketchFactor":"0",
+        "colorStyle":"appliedColor",
+        "fontName":"应用字体",
+        "borderWidth":"0"},
+      "adaptiveStyles":{
+},
+      "interactionMap":{
+},
+      "diagram":{
+        "objects":[{
+            "id":"3f912b2acbb04cce9ce2e4b71f03a88a",
+            "label":"",
+            "type":"imageBox",
+            "styleType":"imageBox",
+            "visible":true,
+            "style":{
+              "size":{
+                "width":431,
+                "height":652},
+              "borderWidth":"-1"},
+            "adaptiveStyles":{
+},
+            "objects":[{
+                "id":"8d26c95232b849beaba6fb23fac32bd8",
+                "label":"",
+                "isContained":true,
+                "type":"richTextPanel",
+                "styleType":"paragraph",
+                "visible":true,
+                "style":{
+                  "size":{
+                    "width":431,
+                    "height":652},
+                  "borderWidth":"-1"},
+                "adaptiveStyles":{
+}}],
+            "images":{
+              "normal~":"images/客户端闪屏/u1.png"}},
+{
+            "id":"beba3e223a5343ffbf22fc2f7590caa5",
+            "label":"",
+            "type":"inlineFrame",
+            "styleType":"inlineFrame",
+            "visible":true,
+            "style":{
+              "location":{
+                "x":55,
+                "y":76},
+              "size":{
+                "width":320,
+                "height":480}},
+            "adaptiveStyles":{
+}},
+{
+            "id":"398eaeec54e44cf59c3160d57a94b04d",
+            "label":"",
+            "type":"imageBox",
+            "styleType":"imageBox",
+            "visible":true,
+            "style":{
+              "location":{
+                "x":55,
+                "y":76},
+              "size":{
+                "width":321,
+                "height":26}},
+            "adaptiveStyles":{
+},
+            "objects":[{
+                "id":"7c23f5e734e146aab726fe7c2af2c315",
+                "label":"",
+                "isContained":true,
+                "type":"richTextPanel",
+                "styleType":"paragraph",
+                "visible":true,
+                "style":{
+                  "location":{
+                    "x":55,
+                    "y":76},
+                  "size":{
+                    "width":321,
+                    "height":26}},
+                "adaptiveStyles":{
+}}],
+            "images":{
+              "normal~":"images/客户端闪屏/u4.png"}}]}}},
+  "objectPaths":{
+    "21b082eb7ced4bdb81b3f1a571a6b2e2":{
+      "scriptId":"u0",
+      "3f912b2acbb04cce9ce2e4b71f03a88a":{
+        "scriptId":"u1"},
+      "8d26c95232b849beaba6fb23fac32bd8":{
+        "scriptId":"u2"},
+      "beba3e223a5343ffbf22fc2f7590caa5":{
+        "scriptId":"u3"},
+      "398eaeec54e44cf59c3160d57a94b04d":{
+        "scriptId":"u4"},
+      "7c23f5e734e146aab726fe7c2af2c315":{
+        "scriptId":"u5"}},
+    "9c2f41353cc34a48a110cd81670b052d":{
+      "scriptId":"u6"},
+    "43e6696012074d0bb5c6b765d09c79c7":{
+      "scriptId":"u7"}}});
