@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/appmill/!svn/ver/17/trunk/ios/%E5%AE%88%E6%8A%A4%E5%AE%9D/EguardianVideo1.0.6/Eguardian/Code/HomeSchoolInteractive/common/net
+END
+TReachability.m
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/appmill/!svn/ver/17/trunk/ios/%E5%AE%88%E6%8A%A4%E5%AE%9D/EguardianVideo1.0.6/Eguardian/Code/HomeSchoolInteractive/common/net/TReachability.m
+END
+ASIHTTPRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/appmill/!svn/ver/17/trunk/ios/%E5%AE%88%E6%8A%A4%E5%AE%9D/EguardianVideo1.0.6/Eguardian/Code/HomeSchoolInteractive/common/net/ASIHTTPRequest.m
+END
+ASINetworkQueue.h
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/appmill/!svn/ver/17/trunk/ios/%E5%AE%88%E6%8A%A4%E5%AE%9D/EguardianVideo1.0.6/Eguardian/Code/HomeSchoolInteractive/common/net/ASINetworkQueue.h
+END
+ASICacheDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/appmill/!svn/ver/17/trunk/ios/%E5%AE%88%E6%8A%A4%E5%AE%9D/EguardianVideo1.0.6/Eguardian/Code/HomeSchoolInteractive/common/net/ASICacheDelegate.h
+END
+ASIProgressDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/appmill/!svn/ver/17/trunk/ios/%E5%AE%88%E6%8A%A4%E5%AE%9D/EguardianVideo1.0.6/Eguardian/Code/HomeSchoolInteractive/common/net/ASIProgressDelegate.h
+END
+ASIAuthenticationDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/appmill/!svn/ver/17/trunk/ios/%E5%AE%88%E6%8A%A4%E5%AE%9D/EguardianVideo1.0.6/Eguardian/Code/HomeSchoolInteractive/common/net/ASIAuthenticationDialog.h
+END
+ASIDataDecompressor.h
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/appmill/!svn/ver/17/trunk/ios/%E5%AE%88%E6%8A%A4%E5%AE%9D/EguardianVideo1.0.6/Eguardian/Code/HomeSchoolInteractive/common/net/ASIDataDecompressor.h
+END
+ASIDownloadCache.m
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/appmill/!svn/ver/17/trunk/ios/%E5%AE%88%E6%8A%A4%E5%AE%9D/EguardianVideo1.0.6/Eguardian/Code/HomeSchoolInteractive/common/net/ASIDownloadCache.m
+END
+ASINetworkQueue.m
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/appmill/!svn/ver/17/trunk/ios/%E5%AE%88%E6%8A%A4%E5%AE%9D/EguardianVideo1.0.6/Eguardian/Code/HomeSchoolInteractive/common/net/ASINetworkQueue.m
+END
+ASIAuthenticationDialog.m
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/appmill/!svn/ver/17/trunk/ios/%E5%AE%88%E6%8A%A4%E5%AE%9D/EguardianVideo1.0.6/Eguardian/Code/HomeSchoolInteractive/common/net/ASIAuthenticationDialog.m
+END
+ASIDataDecompressor.m
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/appmill/!svn/ver/17/trunk/ios/%E5%AE%88%E6%8A%A4%E5%AE%9D/EguardianVideo1.0.6/Eguardian/Code/HomeSchoolInteractive/common/net/ASIDataDecompressor.m
+END
+ASIFormDataRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/appmill/!svn/ver/17/trunk/ios/%E5%AE%88%E6%8A%A4%E5%AE%9D/EguardianVideo1.0.6/Eguardian/Code/HomeSchoolInteractive/common/net/ASIFormDataRequest.h
+END
+ASIFormDataRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/appmill/!svn/ver/17/trunk/ios/%E5%AE%88%E6%8A%A4%E5%AE%9D/EguardianVideo1.0.6/Eguardian/Code/HomeSchoolInteractive/common/net/ASIFormDataRequest.m
+END
+ASIInputStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/appmill/!svn/ver/17/trunk/ios/%E5%AE%88%E6%8A%A4%E5%AE%9D/EguardianVideo1.0.6/Eguardian/Code/HomeSchoolInteractive/common/net/ASIInputStream.h
+END
+ASIHTTPRequestConfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/appmill/!svn/ver/17/trunk/ios/%E5%AE%88%E6%8A%A4%E5%AE%9D/EguardianVideo1.0.6/Eguardian/Code/HomeSchoolInteractive/common/net/ASIHTTPRequestConfig.h
+END
+ASIInputStream.m
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/appmill/!svn/ver/17/trunk/ios/%E5%AE%88%E6%8A%A4%E5%AE%9D/EguardianVideo1.0.6/Eguardian/Code/HomeSchoolInteractive/common/net/ASIInputStream.m
+END
+GDataXMLParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/appmill/!svn/ver/17/trunk/ios/%E5%AE%88%E6%8A%A4%E5%AE%9D/EguardianVideo1.0.6/Eguardian/Code/HomeSchoolInteractive/common/net/GDataXMLParser.h
+END
+ASIHTTPRequestDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/appmill/!svn/ver/17/trunk/ios/%E5%AE%88%E6%8A%A4%E5%AE%9D/EguardianVideo1.0.6/Eguardian/Code/HomeSchoolInteractive/common/net/ASIHTTPRequestDelegate.h
+END
+ASIDataCompressor.h
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/appmill/!svn/ver/17/trunk/ios/%E5%AE%88%E6%8A%A4%E5%AE%9D/EguardianVideo1.0.6/Eguardian/Code/HomeSchoolInteractive/common/net/ASIDataCompressor.h
+END
+GDataXMLParser.m
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/appmill/!svn/ver/17/trunk/ios/%E5%AE%88%E6%8A%A4%E5%AE%9D/EguardianVideo1.0.6/Eguardian/Code/HomeSchoolInteractive/common/net/GDataXMLParser.m
+END
+TReachability.h
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/appmill/!svn/ver/17/trunk/ios/%E5%AE%88%E6%8A%A4%E5%AE%9D/EguardianVideo1.0.6/Eguardian/Code/HomeSchoolInteractive/common/net/TReachability.h
+END
+ASIHTTPRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/appmill/!svn/ver/17/trunk/ios/%E5%AE%88%E6%8A%A4%E5%AE%9D/EguardianVideo1.0.6/Eguardian/Code/HomeSchoolInteractive/common/net/ASIHTTPRequest.h
+END
+ASIDownloadCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/appmill/!svn/ver/17/trunk/ios/%E5%AE%88%E6%8A%A4%E5%AE%9D/EguardianVideo1.0.6/Eguardian/Code/HomeSchoolInteractive/common/net/ASIDownloadCache.h
+END
+ASIDataCompressor.m
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/appmill/!svn/ver/17/trunk/ios/%E5%AE%88%E6%8A%A4%E5%AE%9D/EguardianVideo1.0.6/Eguardian/Code/HomeSchoolInteractive/common/net/ASIDataCompressor.m
+END

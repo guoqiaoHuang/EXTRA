@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>41E4C84A-FD92-4E9E-B02B-47AABA640F7A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Eguardian</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>A43DC203-383B-438D-B863-60C64188D4E6</key>
+		<string>http://192.168.0.15/svn/appmill/trunk/ios/%E5%AE%88%E6%8A%A4%E5%AE%9D/EguardianVideo1.0.6</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Eguardian.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>A43DC203-383B-438D-B863-60C64188D4E6</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>A43DC203-383B-438D-B863-60C64188D4E6</key>
+		<string>http://192.168.0.15/svn/appmill</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://192.168.0.15/svn/appmill/trunk/ios/%E5%AE%88%E6%8A%A4%E5%AE%9D/EguardianVideo1.0.6/Eguardian.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>A43DC203-383B-438D-B863-60C64188D4E6</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryBranchesRelativeLocationKey</key>
+			<string>branches</string>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlRepositoryTagsRelativeLocationKey</key>
+			<string>tags</string>
+			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
+			<string>trunk</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A43DC203-383B-438D-B863-60C64188D4E6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>EguardianVideo1.0</string>
+		</dict>
+	</array>
+</dict>
+</plist>
