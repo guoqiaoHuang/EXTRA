@@ -3179,7 +3179,7 @@
 				ARCHS = armv7;
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_CXX_LIBRARY = "libstdc++";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: liu jian (F44U4Z9M49)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: liu jian (F44U4Z9M49)";
 				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_INPUT_FILETYPE = automatic;
@@ -3200,8 +3200,8 @@
 				);
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "B27596C8-ECB0-49EA-85F1-1E27333BA8AD";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B27596C8-ECB0-49EA-85F1-1E27333BA8AD";
+				PROVISIONING_PROFILE = "11b95282-730f-4635-90c7-a073126ac988";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "11b95282-730f-4635-90c7-a073126ac988";
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
@@ -3213,7 +3213,7 @@
 				ARCHS = armv7;
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_CXX_LIBRARY = "libstdc++";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: liu jian (F44U4Z9M49)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: liu jian (85DFRV34XW)";
 				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_INPUT_FILETYPE = automatic;
@@ -3233,8 +3233,8 @@
 					"\"$(SRCROOT)/../../../VideoH\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "94B00DEB-8FA8-43C2-8BBC-945BD429F11C";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "94B00DEB-8FA8-43C2-8BBC-945BD429F11C";
+				PROVISIONING_PROFILE = "11b95282-730f-4635-90c7-a073126ac988";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "11b95282-730f-4635-90c7-a073126ac988";
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
