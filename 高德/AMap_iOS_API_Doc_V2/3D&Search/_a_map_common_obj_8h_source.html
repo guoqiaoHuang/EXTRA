@@ -1,0 +1,884 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.4"/>
+<title>高德地图iOS SDK 3D地图&amp;搜索服务参考手册 V2.5.0: AMapCommonObj.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">高德地图iOS SDK 3D地图&amp;搜索服务参考手册 V2.5.0
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.4 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_a_map_common_obj_8h_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>枚举</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>枚举值</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>属性</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>页</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">AMapCommonObj.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_a_map_common_obj_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">//  AMapCommonObj.h</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">//  searchKitV3</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">//  Created by yin cai on 13-7-3.</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">//  Copyright (c) 2013年 Autonavi. All rights reserved.</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"></span><span class="preprocessor">#import &lt;Foundation/Foundation.h&gt;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#import &lt;UIKit/UIKit.h&gt;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#pragma mark - #基础数据类型</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="code" href="interface_a_map_geo_point.html">   23</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_geo_point.html" title="搜索类使用的经纬度坐标类。 ">AMapGeoPoint</a> : NSObject&lt;NSCopying&gt;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00028"></a><span class="lineno"><a class="code" href="interface_a_map_geo_point.html#acf46a26364949fef95c27ce703afd9a1">   28</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) CGFloat <a class="code" href="interface_a_map_geo_point.html#acf46a26364949fef95c27ce703afd9a1" title="纬度（垂直方向）。 ">latitude</a>;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="code" href="interface_a_map_geo_point.html#a7f103f49d5473751f205f95d2ab6d766">   33</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) CGFloat <a class="code" href="interface_a_map_geo_point.html#a7f103f49d5473751f205f95d2ab6d766" title="经度（水平方向）。 ">longitude</a>;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;+ (<a class="code" href="interface_a_map_geo_point.html" title="搜索类使用的经纬度坐标类。 ">AMapGeoPoint</a> *)locationWithLatitude:(CGFloat)lat longitude:(CGFloat)lon;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
+<div class="line"><a name="l00052"></a><span class="lineno"><a class="code" href="interface_a_map_geo_polygon.html">   52</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_geo_polygon.html" title="搜索类使用的多边形类。如果是矩形，则只需要左下、右上两个顶点坐标; 如果是其它情况，则需要首尾坐标相同。 ">AMapGeoPolygon</a> : NSObject&lt;NSCopying&gt;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
+<div class="line"><a name="l00057"></a><span class="lineno"><a class="code" href="interface_a_map_geo_polygon.html#a75553948a1c19fc4e91371160b92aa80">   57</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSArray* points;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;+ (<a class="code" href="interface_a_map_geo_polygon.html" title="搜索类使用的多边形类。如果是矩形，则只需要左下、右上两个顶点坐标; 如果是其它情况，则需要首尾坐标相同。 ">AMapGeoPolygon</a> *)polygonWithPoints:(NSArray *)points;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
+<div class="line"><a name="l00073"></a><span class="lineno"><a class="code" href="interface_a_map_district.html">   73</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_district.html" title="城市区域。 ">AMapDistrict</a> : NSObject</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
+<div class="line"><a name="l00078"></a><span class="lineno"><a class="code" href="interface_a_map_district.html#a6c766d678b5022b22508cf1481730138">   78</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *name; </div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
+<div class="line"><a name="l00083"></a><span class="lineno"><a class="code" href="interface_a_map_district.html#a92426b2220e9122546ad74aa31900722">   83</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *adcode; </div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div>
+<div class="line"><a name="l00088"></a><span class="lineno"><a class="code" href="interface_a_map_district.html#a464ee88d82ef3ccac13cd8a561b15158">   88</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *citycode; </div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
+<div class="line"><a name="l00093"></a><span class="lineno"><a class="code" href="interface_a_map_district.html#a3563a1b8c452876c64522540eca12c22">   93</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) <a class="code" href="interface_a_map_geo_point.html" title="搜索类使用的经纬度坐标类。 ">AMapGeoPoint</a> *center;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div>
+<div class="line"><a name="l00098"></a><span class="lineno"><a class="code" href="interface_a_map_district.html#af85d1409705570e39e0876f890ee2de4">   98</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSArray *polylines;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;</div>
+<div class="line"><a name="l00103"></a><span class="lineno"><a class="code" href="interface_a_map_district.html#ac2250b73c88626f9c0c450940f3f6429">  103</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *level;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;</div>
+<div class="line"><a name="l00108"></a><span class="lineno"><a class="code" href="interface_a_map_district.html#a307916d4512c06001cf9b9038074f125">  108</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSArray *districts;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;+ (<a class="code" href="interface_a_map_district.html" title="城市区域。 ">AMapDistrict</a> *)districtWithName:(NSString *)name adcode:(NSString *)adcode;</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;</div>
+<div class="line"><a name="l00125"></a><span class="lineno"><a class="code" href="interface_a_map_city.html">  125</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_city.html" title="城市信息类。 ">AMapCity</a> : NSObject</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;</div>
+<div class="line"><a name="l00130"></a><span class="lineno"><a class="code" href="interface_a_map_city.html#a35af1d09262808542f1c587da9e91be1">  130</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString* city;  </div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;</div>
+<div class="line"><a name="l00137"></a><span class="lineno"><a class="code" href="interface_a_map_city.html#aebfdcb8d08ccb7c7ede04bb8962a8305">  137</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString* citycode; </div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;</div>
+<div class="line"><a name="l00142"></a><span class="lineno"><a class="code" href="interface_a_map_city.html#a8e3e24d151392f84cb540d6e86d77844">  142</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString* adcode;</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;</div>
+<div class="line"><a name="l00147"></a><span class="lineno"><a class="code" href="interface_a_map_city.html#a9e3bf1c2727a752eda58fcb0dcd5e616">  147</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) NSInteger num; </div>
+<div class="line"><a name="l00151"></a><span class="lineno"><a class="code" href="interface_a_map_city.html#a13a8f35fd03eac663869628bf82ebdfe">  151</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSArray *districts; </div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;</div>
+<div class="line"><a name="l00160"></a><span class="lineno"><a class="code" href="interface_a_map_suggestion.html">  160</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_suggestion.html" title="查询建议信息类。 ">AMapSuggestion</a> : NSObject</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;</div>
+<div class="line"><a name="l00165"></a><span class="lineno"><a class="code" href="interface_a_map_suggestion.html#aa42fc012c61a9e5ae6f3227e7a2b75ab">  165</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSArray* keywords; </div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;</div>
+<div class="line"><a name="l00170"></a><span class="lineno"><a class="code" href="interface_a_map_suggestion.html#a2b6cbf14bc1a80590f0e7e35212f3d80">  170</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSArray* cities;  </div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;</div>
+<div class="line"><a name="l00177"></a><span class="lineno"><a class="code" href="interface_a_map_app_url.html">  177</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_app_url.html" title="手机应用网址。 ">AMapAppUrl</a> : NSObject</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;</div>
+<div class="line"><a name="l00182"></a><span class="lineno"><a class="code" href="interface_a_map_app_url.html#afbbf2da8032166c3eade192430d4ea13">  182</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *android;</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160; </div>
+<div class="line"><a name="l00187"></a><span class="lineno"><a class="code" href="interface_a_map_app_url.html#a09a4dbc674244eaf934f7728e3b6f253">  187</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *ios; </div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;</div>
+<div class="line"><a name="l00192"></a><span class="lineno"><a class="code" href="interface_a_map_app_url.html#a9e3cbd0e4db47b3079703cfaea4a9884">  192</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *wp;</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;+ (<a class="code" href="interface_a_map_app_url.html" title="手机应用网址。 ">AMapAppUrl</a> *)appUrlWithAndroid:(NSString *)android ios:(NSString *)ios wp:(NSString *)wp;</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;</div>
+<div class="line"><a name="l00210"></a><span class="lineno"><a class="code" href="interface_a_map_photo.html">  210</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_photo.html" title="图片信息类。 ">AMapPhoto</a> : NSObject</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;</div>
+<div class="line"><a name="l00215"></a><span class="lineno"><a class="code" href="interface_a_map_photo.html#aadac407b2a8026b5bc5058454a27869b">  215</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString* title; </div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;</div>
+<div class="line"><a name="l00220"></a><span class="lineno"><a class="code" href="interface_a_map_photo.html#a595d11339d15652426f5446a87985b14">  220</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString* url; </div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;<span class="comment"> *     @brief  图片来源。</span></div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString* provider; </div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;+ (<a class="code" href="interface_a_map_photo.html" title="图片信息类。 ">AMapPhoto</a> *)photoWithTitle:(NSString *)title url:(NSString *)url provider:(NSString *)provider;</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;<span class="preprocessor">#pragma mark - #市场动态信息</span></div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00244"></a><span class="lineno"><a class="code" href="interface_a_map_group_buy.html">  244</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_group_buy.html" title="团购信息类。 ">AMapGroupBuy</a> : NSObject</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;</div>
+<div class="line"><a name="l00249"></a><span class="lineno"><a class="code" href="interface_a_map_group_buy.html#acf1195f35e72aa804fb6e635be5b2265">  249</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString* typeCode;</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;</div>
+<div class="line"><a name="l00254"></a><span class="lineno"><a class="code" href="interface_a_map_group_buy.html#aed966e6dd75bdb1037495b7fab15bdbc">  254</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString* type; </div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;</div>
+<div class="line"><a name="l00259"></a><span class="lineno"><a class="code" href="interface_a_map_group_buy.html#ae43ecf78cb8cdf0d67277b7938ee2383">  259</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString* detail; </div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;</div>
+<div class="line"><a name="l00264"></a><span class="lineno"><a class="code" href="interface_a_map_group_buy.html#a612e0826d69453654a6530dcb750bfdc">  264</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString* startTime; </div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;</div>
+<div class="line"><a name="l00269"></a><span class="lineno"><a class="code" href="interface_a_map_group_buy.html#a4316bf9813702d3c1d5328a8a445e041">  269</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString* endTime; </div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;</div>
+<div class="line"><a name="l00274"></a><span class="lineno"><a class="code" href="interface_a_map_group_buy.html#a359e3f2e90077ab8bb83c39a4af2e8e7">  274</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) NSInteger num; </div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;</div>
+<div class="line"><a name="l00279"></a><span class="lineno"><a class="code" href="interface_a_map_group_buy.html#a4f01be222ff24fcb5c4014c4335b8224">  279</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) NSInteger soldNum; </div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;</div>
+<div class="line"><a name="l00284"></a><span class="lineno"><a class="code" href="interface_a_map_group_buy.html#acd62e46b6a3bc3386b0f7f2a64cbd5b0">  284</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) CGFloat originalPrice; </div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;</div>
+<div class="line"><a name="l00289"></a><span class="lineno"><a class="code" href="interface_a_map_group_buy.html#af94d109678406cfd87b61ee242cbe838">  289</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) CGFloat groupbuyPrice; </div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;</div>
+<div class="line"><a name="l00294"></a><span class="lineno"><a class="code" href="interface_a_map_group_buy.html#a5f2a7a85addf763c0f887e5fbf9d4a20">  294</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) CGFloat discount; </div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;</div>
+<div class="line"><a name="l00299"></a><span class="lineno"><a class="code" href="interface_a_map_group_buy.html#a627eb214d83ad1f02fc6e0ec848a785d">  299</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString* ticketAddress; </div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;</div>
+<div class="line"><a name="l00304"></a><span class="lineno"><a class="code" href="interface_a_map_group_buy.html#afba2f59166d175a38044c6bbe4b6ffe9">  304</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString* ticketTel; </div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;</div>
+<div class="line"><a name="l00309"></a><span class="lineno"><a class="code" href="interface_a_map_group_buy.html#a6dd9a85ba26cebf961ee30d98f8f3c0d">  309</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSArray* photos;</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;</div>
+<div class="line"><a name="l00314"></a><span class="lineno"><a class="code" href="interface_a_map_group_buy.html#a97d625d3969666259ea9523a7ba52c1e">  314</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString* url; </div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;</div>
+<div class="line"><a name="l00319"></a><span class="lineno"><a class="code" href="interface_a_map_group_buy.html#a9159e1103304ba1590fea16895896ce1">  319</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString* provider;</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;</div>
+<div class="line"><a name="l00326"></a><span class="lineno"><a class="code" href="interface_a_map_discount.html">  326</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_discount.html" title="优惠信息类。 ">AMapDiscount</a> : NSObject</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;</div>
+<div class="line"><a name="l00331"></a><span class="lineno"><a class="code" href="interface_a_map_discount.html#aaf87a686653657526992b925dcadf44e">  331</a></span>&#160;<span class="keyword">@property</span> (nonatomic,strong) NSString* title; </div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;</div>
+<div class="line"><a name="l00336"></a><span class="lineno"><a class="code" href="interface_a_map_discount.html#ad29356bd5af008e08cb861465b916305">  336</a></span>&#160;<span class="keyword">@property</span> (nonatomic,strong) NSString* detail; </div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;</div>
+<div class="line"><a name="l00341"></a><span class="lineno"><a class="code" href="interface_a_map_discount.html#a1482f9bc9878e2e5ddb259474cf97ed2">  341</a></span>&#160;<span class="keyword">@property</span> (nonatomic,strong) NSString* startTime; </div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;</div>
+<div class="line"><a name="l00346"></a><span class="lineno"><a class="code" href="interface_a_map_discount.html#a726ebb6042a6f0d30a887cddd903ffc5">  346</a></span>&#160;<span class="keyword">@property</span> (nonatomic,strong) NSString* endTime; </div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;</div>
+<div class="line"><a name="l00351"></a><span class="lineno"><a class="code" href="interface_a_map_discount.html#a73a5c08f79ad458568842f0e7f139ce6">  351</a></span>&#160;<span class="keyword">@property</span> (nonatomic,assign) NSInteger soldNum; </div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;</div>
+<div class="line"><a name="l00356"></a><span class="lineno"><a class="code" href="interface_a_map_discount.html#a990d98cb26f7a9541338802fc2abad44">  356</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSArray *photos; </div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;</div>
+<div class="line"><a name="l00361"></a><span class="lineno"><a class="code" href="interface_a_map_discount.html#a61bd38dbf3395b8cc7e2fcdd91ff1999">  361</a></span>&#160;<span class="keyword">@property</span> (nonatomic,strong) NSString* url;</div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;</div>
+<div class="line"><a name="l00366"></a><span class="lineno"><a class="code" href="interface_a_map_discount.html#a4754a2f9e2bf814a3a441046f4b7e16b">  366</a></span>&#160;<span class="keyword">@property</span> (nonatomic,strong) NSString* provider;</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;</div>
+<div class="line"><a name="l00373"></a><span class="lineno"><a class="code" href="interface_a_map_rich_content.html">  373</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_rich_content.html" title="深度信息类（团购和优惠）。 ">AMapRichContent</a> : NSObject</div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;</div>
+<div class="line"><a name="l00378"></a><span class="lineno"><a class="code" href="interface_a_map_rich_content.html#a09fae9bd703968f3675e2627b80f5b10">  378</a></span>&#160;<span class="keyword">@property</span> (nonatomic,strong) NSArray* groupbuys; </div>
+<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;</div>
+<div class="line"><a name="l00383"></a><span class="lineno"><a class="code" href="interface_a_map_rich_content.html#a97eed421ad2adb88e4fc5b5e552b6b82">  383</a></span>&#160;<span class="keyword">@property</span> (nonatomic,strong) NSArray* discounts; </div>
+<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;</div>
+<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;</div>
+<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;<span class="preprocessor">#pragma mark - #行业深度信息</span></div>
+<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00391"></a><span class="lineno"><a class="code" href="interface_a_map_ticket.html">  391</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_ticket.html" title="电影行业的场次信息。 ">AMapTicket</a> : NSObject</div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;</div>
+<div class="line"><a name="l00396"></a><span class="lineno"><a class="code" href="interface_a_map_ticket.html#a46037c67cd4957c0c1d007a553c5b11e">  396</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *startTime; </div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;</div>
+<div class="line"><a name="l00401"></a><span class="lineno"><a class="code" href="interface_a_map_ticket.html#ad6690587b855221f1611ad99dc582592">  401</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *screen; </div>
+<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;</div>
+<div class="line"><a name="l00406"></a><span class="lineno"><a class="code" href="interface_a_map_ticket.html#a04f995d7d67e130895c91f1be93662b7">  406</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *lang;</div>
+<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;</div>
+<div class="line"><a name="l00411"></a><span class="lineno"><a class="code" href="interface_a_map_ticket.html#a36fa576426f0ed408d4f37c27a22d7e6">  411</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) CGFloat price;</div>
+<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;</div>
+<div class="line"><a name="l00416"></a><span class="lineno"><a class="code" href="interface_a_map_ticket.html#a225ccd63b7872af2b69d04b2f864d9b6">  416</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) BOOL seatOrdering; </div>
+<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;</div>
+<div class="line"><a name="l00421"></a><span class="lineno"><a class="code" href="interface_a_map_ticket.html#aed4a541bfeb526409594ca48db0e3511">  421</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *orderingUrlWap; </div>
+<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;</div>
+<div class="line"><a name="l00426"></a><span class="lineno"><a class="code" href="interface_a_map_ticket.html#af7e255dbcb43357db12b16e13ddc5421">  426</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *orderingUrlWeb;</div>
+<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;</div>
+<div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;</div>
+<div class="line"><a name="l00433"></a><span class="lineno"><a class="code" href="interface_a_map_movie.html">  433</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_movie.html" title="电影行业的动态信息。 ">AMapMovie</a> : NSObject</div>
+<div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;</div>
+<div class="line"><a name="l00438"></a><span class="lineno"><a class="code" href="interface_a_map_movie.html#aff2a7c90c0f9cd76732f2a571e819210">  438</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *name; </div>
+<div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;</div>
+<div class="line"><a name="l00443"></a><span class="lineno"><a class="code" href="interface_a_map_movie.html#a892aea63cf7e7207661abf6efc206aad">  443</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *uid; </div>
+<div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;</div>
+<div class="line"><a name="l00448"></a><span class="lineno"><a class="code" href="interface_a_map_movie.html#ad80a6a120a9a18f06986e5062492cea8">  448</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *actors; </div>
+<div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;</div>
+<div class="line"><a name="l00453"></a><span class="lineno"><a class="code" href="interface_a_map_movie.html#a3da539b4f5f411185abebb5d393844d5">  453</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *director;</div>
+<div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;</div>
+<div class="line"><a name="l00458"></a><span class="lineno"><a class="code" href="interface_a_map_movie.html#a36d2201c4223922df1646acf542c30a3">  458</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *type; </div>
+<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;</div>
+<div class="line"><a name="l00463"></a><span class="lineno"><a class="code" href="interface_a_map_movie.html#a998e18a4fc8c8d33ac971966497ca171">  463</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) NSInteger length; </div>
+<div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160;</div>
+<div class="line"><a name="l00468"></a><span class="lineno"><a class="code" href="interface_a_map_movie.html#a8286099c73bf1aaad9600cf2041b79de">  468</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSArray *tickets; </div>
+<div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;</div>
+<div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;</div>
+<div class="line"><a name="l00475"></a><span class="lineno"><a class="code" href="interface_a_map_room.html">  475</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_room.html" title="酒店行业的房型详细信息。 ">AMapRoom</a> : NSObject</div>
+<div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;</div>
+<div class="line"><a name="l00480"></a><span class="lineno"><a class="code" href="interface_a_map_room.html#a6b3648c4f5db5ec848aa1e5234cc1329">  480</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *uid; </div>
+<div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;</div>
+<div class="line"><a name="l00485"></a><span class="lineno"><a class="code" href="interface_a_map_room.html#a23c01d0129be4b0fe3d9e555ba80e8e8">  485</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *type;</div>
+<div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;</div>
+<div class="line"><a name="l00490"></a><span class="lineno"><a class="code" href="interface_a_map_room.html#a56c4aae8226a62cd87244909f43c393c">  490</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *name;</div>
+<div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;</div>
+<div class="line"><a name="l00495"></a><span class="lineno"><a class="code" href="interface_a_map_room.html#a19c63c012b91c6e5c749d6113e524d47">  495</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) CGFloat price; </div>
+<div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;</div>
+<div class="line"><a name="l00500"></a><span class="lineno"><a class="code" href="interface_a_map_room.html#a4093903d5516946c9818e2f801de8835">  500</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *breakfast; </div>
+<div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160;</div>
+<div class="line"><a name="l00505"></a><span class="lineno"><a class="code" href="interface_a_map_room.html#afb46f93c9ebb2ce71e81e39e986703ba">  505</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *network; </div>
+<div class="line"><a name="l00506"></a><span class="lineno">  506</span>&#160;</div>
+<div class="line"><a name="l00510"></a><span class="lineno"><a class="code" href="interface_a_map_room.html#a12d49d7e2a50ce4c2f78fe49168674b5">  510</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) BOOL guarantee; </div>
+<div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160;</div>
+<div class="line"><a name="l00515"></a><span class="lineno"><a class="code" href="interface_a_map_room.html#a259e4661bc74e324fad6a4c1e066d23e">  515</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *tel;</div>
+<div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;</div>
+<div class="line"><a name="l00520"></a><span class="lineno"><a class="code" href="interface_a_map_room.html#a1a39d7f919b17183c4a5457760e95585">  520</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *orderingUrlWap;</div>
+<div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;</div>
+<div class="line"><a name="l00525"></a><span class="lineno"><a class="code" href="interface_a_map_room.html#a05e9d3fd9d90287b4b36b03fec3808fd">  525</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *orderingUrlWeb; </div>
+<div class="line"><a name="l00526"></a><span class="lineno">  526</span>&#160;</div>
+<div class="line"><a name="l00530"></a><span class="lineno"><a class="code" href="interface_a_map_room.html#a7f03d08c567bd1aeddd055d43cdeacb6">  530</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *provider;</div>
+<div class="line"><a name="l00531"></a><span class="lineno">  531</span>&#160;</div>
+<div class="line"><a name="l00532"></a><span class="lineno">  532</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00533"></a><span class="lineno">  533</span>&#160;</div>
+<div class="line"><a name="l00537"></a><span class="lineno"><a class="code" href="interface_a_map_dining_deep_content.html">  537</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_dining_deep_content.html" title="餐饮行业深度信息。 ">AMapDiningDeepContent</a> : NSObject</div>
+<div class="line"><a name="l00538"></a><span class="lineno">  538</span>&#160;</div>
+<div class="line"><a name="l00542"></a><span class="lineno"><a class="code" href="interface_a_map_dining_deep_content.html#a9359a7a073fa3feeda04ae47bd359b17">  542</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *cuisines; </div>
+<div class="line"><a name="l00543"></a><span class="lineno">  543</span>&#160;</div>
+<div class="line"><a name="l00547"></a><span class="lineno"><a class="code" href="interface_a_map_dining_deep_content.html#a8fdeaa8ad2be269570080e4bffdabc4b">  547</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *tag;</div>
+<div class="line"><a name="l00548"></a><span class="lineno">  548</span>&#160;</div>
+<div class="line"><a name="l00552"></a><span class="lineno"><a class="code" href="interface_a_map_dining_deep_content.html#a0d866c9b5eb2ac6c4b2f75a09775c5f7">  552</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) CGFloat cpRating; </div>
+<div class="line"><a name="l00553"></a><span class="lineno">  553</span>&#160;</div>
+<div class="line"><a name="l00557"></a><span class="lineno"><a class="code" href="interface_a_map_dining_deep_content.html#af5dd7ef948a35f438679996da08043c1">  557</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) CGFloat tasteRating; </div>
+<div class="line"><a name="l00558"></a><span class="lineno">  558</span>&#160;</div>
+<div class="line"><a name="l00562"></a><span class="lineno"><a class="code" href="interface_a_map_dining_deep_content.html#a8121464a2baca92b10dff2dbcfb93389">  562</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) CGFloat environmentRating;</div>
+<div class="line"><a name="l00563"></a><span class="lineno">  563</span>&#160;</div>
+<div class="line"><a name="l00567"></a><span class="lineno"><a class="code" href="interface_a_map_dining_deep_content.html#abad51dcf2eb7458b6b67febef7408502">  567</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) CGFloat serviceRating;</div>
+<div class="line"><a name="l00568"></a><span class="lineno">  568</span>&#160;</div>
+<div class="line"><a name="l00572"></a><span class="lineno"><a class="code" href="interface_a_map_dining_deep_content.html#a733542ec9145ec478bc19dcbffc6ced0">  572</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) CGFloat cost;</div>
+<div class="line"><a name="l00573"></a><span class="lineno">  573</span>&#160;</div>
+<div class="line"><a name="l00577"></a><span class="lineno"><a class="code" href="interface_a_map_dining_deep_content.html#a276bc5fdda44ee3bb966330ffafd1cca">  577</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *recommend; </div>
+<div class="line"><a name="l00578"></a><span class="lineno">  578</span>&#160;</div>
+<div class="line"><a name="l00582"></a><span class="lineno"><a class="code" href="interface_a_map_dining_deep_content.html#aba4025beca5cfbe87e16003564c98732">  582</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *atmosphere; </div>
+<div class="line"><a name="l00583"></a><span class="lineno">  583</span>&#160;</div>
+<div class="line"><a name="l00587"></a><span class="lineno"><a class="code" href="interface_a_map_dining_deep_content.html#ab01da0dd96ab0e507a695ff3733949f2">  587</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *addition; </div>
+<div class="line"><a name="l00588"></a><span class="lineno">  588</span>&#160;</div>
+<div class="line"><a name="l00592"></a><span class="lineno"><a class="code" href="interface_a_map_dining_deep_content.html#a15701577bc47da6a37aee2a9fa4fe336">  592</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) <a class="code" href="interface_a_map_app_url.html" title="手机应用网址。 ">AMapAppUrl</a> *appUrl; </div>
+<div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160;</div>
+<div class="line"><a name="l00597"></a><span class="lineno"><a class="code" href="interface_a_map_dining_deep_content.html#a6f30e1d93d44f85e38864391ba06d558">  597</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *orderingUrlWap;</div>
+<div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160;</div>
+<div class="line"><a name="l00602"></a><span class="lineno"><a class="code" href="interface_a_map_dining_deep_content.html#ad56c8d8c09c7b46c9059407ea7c0ce48">  602</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *orderingUrlWeb;</div>
+<div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;</div>
+<div class="line"><a name="l00607"></a><span class="lineno"><a class="code" href="interface_a_map_dining_deep_content.html#a1fe1f1effc71c1f8065ad9c65c3ee232">  607</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *opentimeGDF;</div>
+<div class="line"><a name="l00608"></a><span class="lineno">  608</span>&#160;</div>
+<div class="line"><a name="l00612"></a><span class="lineno"><a class="code" href="interface_a_map_dining_deep_content.html#a29bec7f845dd7072e3b9d7654ac1e81b">  612</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *opentime; </div>
+<div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;</div>
+<div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;</div>
+<div class="line"><a name="l00619"></a><span class="lineno"><a class="code" href="interface_a_map_hotel_deep_content.html">  619</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_hotel_deep_content.html" title="酒店行业深度信息。 ">AMapHotelDeepContent</a> : NSObject</div>
+<div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160;</div>
+<div class="line"><a name="l00624"></a><span class="lineno"><a class="code" href="interface_a_map_hotel_deep_content.html#a92c14c3d8218527df192d8a8444fd6a2">  624</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) NSInteger star;</div>
+<div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160;</div>
+<div class="line"><a name="l00629"></a><span class="lineno"><a class="code" href="interface_a_map_hotel_deep_content.html#ab0b13fd28bb29608db8057e0a96c6441">  629</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) CGFloat lowestPrice; </div>
+<div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;</div>
+<div class="line"><a name="l00634"></a><span class="lineno"><a class="code" href="interface_a_map_hotel_deep_content.html#a94e6403341c0e0e9c9f506cd4e8f6f0f">  634</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) CGFloat faciRating;</div>
+<div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;</div>
+<div class="line"><a name="l00639"></a><span class="lineno"><a class="code" href="interface_a_map_hotel_deep_content.html#acd4a77440bd66b1b29df49eb86950c5a">  639</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) CGFloat healthRating; </div>
+<div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;</div>
+<div class="line"><a name="l00644"></a><span class="lineno"><a class="code" href="interface_a_map_hotel_deep_content.html#af0e96db6193f5833719be5eb8012d3a7">  644</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) CGFloat environmentRating;</div>
+<div class="line"><a name="l00645"></a><span class="lineno">  645</span>&#160;</div>
+<div class="line"><a name="l00649"></a><span class="lineno"><a class="code" href="interface_a_map_hotel_deep_content.html#ad68fd2accba5c86d75aba7369599f115">  649</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) CGFloat serviceRating; </div>
+<div class="line"><a name="l00650"></a><span class="lineno">  650</span>&#160;</div>
+<div class="line"><a name="l00654"></a><span class="lineno"><a class="code" href="interface_a_map_hotel_deep_content.html#a670b28e184c3ed8d517f762a3f571533">  654</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *traffic;</div>
+<div class="line"><a name="l00655"></a><span class="lineno">  655</span>&#160;</div>
+<div class="line"><a name="l00659"></a><span class="lineno"><a class="code" href="interface_a_map_hotel_deep_content.html#af553a05a91651fa1a65562fe7777deac">  659</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *addition; </div>
+<div class="line"><a name="l00660"></a><span class="lineno">  660</span>&#160;</div>
+<div class="line"><a name="l00664"></a><span class="lineno"><a class="code" href="interface_a_map_hotel_deep_content.html#aab9718aafd62c4abfb3fd3320591ef8b">  664</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSArray *rooms; </div>
+<div class="line"><a name="l00665"></a><span class="lineno">  665</span>&#160;</div>
+<div class="line"><a name="l00666"></a><span class="lineno">  666</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00667"></a><span class="lineno">  667</span>&#160;</div>
+<div class="line"><a name="l00671"></a><span class="lineno"><a class="code" href="interface_a_map_scenic_deep_content.html">  671</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_scenic_deep_content.html" title="景点行业深度信息。 ">AMapScenicDeepContent</a> : NSObject</div>
+<div class="line"><a name="l00672"></a><span class="lineno">  672</span>&#160;</div>
+<div class="line"><a name="l00676"></a><span class="lineno"><a class="code" href="interface_a_map_scenic_deep_content.html#ac31325db666229e53e97017ee4463cdf">  676</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *level;</div>
+<div class="line"><a name="l00677"></a><span class="lineno">  677</span>&#160;</div>
+<div class="line"><a name="l00681"></a><span class="lineno"><a class="code" href="interface_a_map_scenic_deep_content.html#aafae07b572c46796daffef2680da4771">  681</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) CGFloat price; </div>
+<div class="line"><a name="l00682"></a><span class="lineno">  682</span>&#160;</div>
+<div class="line"><a name="l00686"></a><span class="lineno"><a class="code" href="interface_a_map_scenic_deep_content.html#a571f1505b1babfe8cf0da5b259cf0826">  686</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *season; </div>
+<div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160;</div>
+<div class="line"><a name="l00691"></a><span class="lineno"><a class="code" href="interface_a_map_scenic_deep_content.html#ad486e5ff126d35d856bcee2d1d23eb66">  691</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *recommend;</div>
+<div class="line"><a name="l00692"></a><span class="lineno">  692</span>&#160;</div>
+<div class="line"><a name="l00696"></a><span class="lineno"><a class="code" href="interface_a_map_scenic_deep_content.html#abeea6d486aad465bd12ffa669bbadb45">  696</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *theme; </div>
+<div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;</div>
+<div class="line"><a name="l00701"></a><span class="lineno"><a class="code" href="interface_a_map_scenic_deep_content.html#a13e1d234fd1a6661ca7fe7bfa8618f08">  701</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *orderingUrlWap;</div>
+<div class="line"><a name="l00702"></a><span class="lineno">  702</span>&#160;</div>
+<div class="line"><a name="l00706"></a><span class="lineno"><a class="code" href="interface_a_map_scenic_deep_content.html#aba9d06e3a970f3a4280c7ea1d1cd7246">  706</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *orderingUrlWeb; </div>
+<div class="line"><a name="l00707"></a><span class="lineno">  707</span>&#160;</div>
+<div class="line"><a name="l00711"></a><span class="lineno"><a class="code" href="interface_a_map_scenic_deep_content.html#a415d4373a30b7df17b565479148704cb">  711</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *opentimeGDF;</div>
+<div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160;</div>
+<div class="line"><a name="l00716"></a><span class="lineno"><a class="code" href="interface_a_map_scenic_deep_content.html#aa5bd9885655ce864ed71afaff92403ec">  716</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *opentime; </div>
+<div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160;</div>
+<div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;</div>
+<div class="line"><a name="l00723"></a><span class="lineno"><a class="code" href="interface_a_map_cinema_deep_content.html">  723</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_cinema_deep_content.html" title="电影行业深度信息。 ">AMapCinemaDeepContent</a> : NSObject</div>
+<div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;</div>
+<div class="line"><a name="l00728"></a><span class="lineno"><a class="code" href="interface_a_map_cinema_deep_content.html#a18f1602427cc1b454f965768dbd92669">  728</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) BOOL is3D;</div>
+<div class="line"><a name="l00729"></a><span class="lineno">  729</span>&#160;</div>
+<div class="line"><a name="l00733"></a><span class="lineno"><a class="code" href="interface_a_map_cinema_deep_content.html#a4139fb55909eb20d5412b4270055ebbe">  733</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *parking; </div>
+<div class="line"><a name="l00734"></a><span class="lineno">  734</span>&#160;</div>
+<div class="line"><a name="l00738"></a><span class="lineno"><a class="code" href="interface_a_map_cinema_deep_content.html#af17c8eaa8b67dcc729c4d0c17791821d">  738</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *opentimeGDF; </div>
+<div class="line"><a name="l00739"></a><span class="lineno">  739</span>&#160;</div>
+<div class="line"><a name="l00743"></a><span class="lineno"><a class="code" href="interface_a_map_cinema_deep_content.html#a7934099a026f9fe681b695ce95324b1d">  743</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *opentime;</div>
+<div class="line"><a name="l00744"></a><span class="lineno">  744</span>&#160;</div>
+<div class="line"><a name="l00748"></a><span class="lineno"><a class="code" href="interface_a_map_cinema_deep_content.html#ab400e878f40177005b4598e70555b050">  748</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSArray *movies; </div>
+<div class="line"><a name="l00749"></a><span class="lineno">  749</span>&#160;</div>
+<div class="line"><a name="l00750"></a><span class="lineno">  750</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00751"></a><span class="lineno">  751</span>&#160;</div>
+<div class="line"><a name="l00755"></a><span class="lineno"><a class="code" href="interface_a_map_deep_content.html">  755</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_deep_content.html" title="行业深度信息。 ">AMapDeepContent</a> : NSObject</div>
+<div class="line"><a name="l00756"></a><span class="lineno">  756</span>&#160;</div>
+<div class="line"><a name="l00760"></a><span class="lineno"><a class="code" href="interface_a_map_deep_content.html#a9493cd0680cd5aeda91eec21d16e6e27">  760</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *type; </div>
+<div class="line"><a name="l00761"></a><span class="lineno">  761</span>&#160;</div>
+<div class="line"><a name="l00765"></a><span class="lineno"><a class="code" href="interface_a_map_deep_content.html#a232895e6b31d0852c913b7b5d590afb6">  765</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *intro;</div>
+<div class="line"><a name="l00766"></a><span class="lineno">  766</span>&#160;</div>
+<div class="line"><a name="l00770"></a><span class="lineno"><a class="code" href="interface_a_map_deep_content.html#acfd3722213426f2a4fac73b78cd2f064">  770</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) CGFloat rating; </div>
+<div class="line"><a name="l00771"></a><span class="lineno">  771</span>&#160;</div>
+<div class="line"><a name="l00775"></a><span class="lineno"><a class="code" href="interface_a_map_deep_content.html#a3767e7e5ecee241c1fea4159312a2b83">  775</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *provider; </div>
+<div class="line"><a name="l00776"></a><span class="lineno">  776</span>&#160;</div>
+<div class="line"><a name="l00780"></a><span class="lineno"><a class="code" href="interface_a_map_deep_content.html#aeef01562ae5b8453459696ad50f6d63e">  780</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSArray *photos; </div>
+<div class="line"><a name="l00781"></a><span class="lineno">  781</span>&#160;</div>
+<div class="line"><a name="l00785"></a><span class="lineno"><a class="code" href="interface_a_map_deep_content.html#a0271041d6deac8fd5f56532aa992607d">  785</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) <a class="code" href="interface_a_map_dining_deep_content.html" title="餐饮行业深度信息。 ">AMapDiningDeepContent</a> *deepDining; </div>
+<div class="line"><a name="l00786"></a><span class="lineno">  786</span>&#160;</div>
+<div class="line"><a name="l00790"></a><span class="lineno"><a class="code" href="interface_a_map_deep_content.html#ac03626706778c21c632418286c25f563">  790</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) <a class="code" href="interface_a_map_hotel_deep_content.html" title="酒店行业深度信息。 ">AMapHotelDeepContent</a> *deepHotel; </div>
+<div class="line"><a name="l00791"></a><span class="lineno">  791</span>&#160;</div>
+<div class="line"><a name="l00795"></a><span class="lineno"><a class="code" href="interface_a_map_deep_content.html#a7b193804f7fed8524867cd49b2f8d56b">  795</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) <a class="code" href="interface_a_map_scenic_deep_content.html" title="景点行业深度信息。 ">AMapScenicDeepContent</a> *deepScenic; </div>
+<div class="line"><a name="l00796"></a><span class="lineno">  796</span>&#160;</div>
+<div class="line"><a name="l00800"></a><span class="lineno"><a class="code" href="interface_a_map_deep_content.html#a73222d2243f12815256925491988166e">  800</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) <a class="code" href="interface_a_map_cinema_deep_content.html" title="电影行业深度信息。 ">AMapCinemaDeepContent</a> *deepCinema; </div>
+<div class="line"><a name="l00801"></a><span class="lineno">  801</span>&#160;</div>
+<div class="line"><a name="l00802"></a><span class="lineno">  802</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00803"></a><span class="lineno">  803</span>&#160;</div>
+<div class="line"><a name="l00807"></a><span class="lineno">  807</span>&#160;<span class="keyword">extern</span> NSString* <span class="keyword">const</span> <a class="code" href="_a_map_common_obj_8h.html#aa4ad5d1442cdea0e8eaada1ac2bf959c" title="餐饮行业深度信息类型。 ">AMapDeepContentTypeDining</a>;</div>
+<div class="line"><a name="l00808"></a><span class="lineno">  808</span>&#160;</div>
+<div class="line"><a name="l00812"></a><span class="lineno">  812</span>&#160;<span class="keyword">extern</span> NSString* <span class="keyword">const</span> <a class="code" href="_a_map_common_obj_8h.html#a76dee43b2eb76cb088ee5e78c7ca59d6" title="酒店行业深度信息类型。 ">AMapDeepContentTypeHotel</a>;</div>
+<div class="line"><a name="l00813"></a><span class="lineno">  813</span>&#160;</div>
+<div class="line"><a name="l00817"></a><span class="lineno">  817</span>&#160;<span class="keyword">extern</span> NSString* <span class="keyword">const</span> <a class="code" href="_a_map_common_obj_8h.html#a4038f6761a118a59562138636831f363" title="景点行业深度信息类型。 ">AMapDeepContentTypeScenic</a>;</div>
+<div class="line"><a name="l00818"></a><span class="lineno">  818</span>&#160;</div>
+<div class="line"><a name="l00822"></a><span class="lineno">  822</span>&#160;<span class="keyword">extern</span> NSString* <span class="keyword">const</span> <a class="code" href="_a_map_common_obj_8h.html#a08da70ac53af9a107bc398bedd911a94" title="电影行业深度信息类型。 ">AMapDeepContentTypeCinema</a>;</div>
+<div class="line"><a name="l00823"></a><span class="lineno">  823</span>&#160;</div>
+<div class="line"><a name="l00824"></a><span class="lineno">  824</span>&#160;<span class="preprocessor">#pragma mark - #POI查询扩展信息</span></div>
+<div class="line"><a name="l00825"></a><span class="lineno">  825</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00828"></a><span class="lineno"><a class="code" href="interface_a_map_biz_extention.html">  828</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_biz_extention.html" title="行业扩展信息。 ">AMapBizExtention</a> : NSObject</div>
+<div class="line"><a name="l00832"></a><span class="lineno"><a class="code" href="interface_a_map_biz_extention.html#a4f65f88961e4abf438a38ca906516967">  832</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) CGFloat rating; </div>
+<div class="line"><a name="l00833"></a><span class="lineno">  833</span>&#160;</div>
+<div class="line"><a name="l00837"></a><span class="lineno"><a class="code" href="interface_a_map_biz_extention.html#aa10141a1fc02af14579a4c3250dcd0aa">  837</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) CGFloat cost; </div>
+<div class="line"><a name="l00838"></a><span class="lineno">  838</span>&#160;</div>
+<div class="line"><a name="l00842"></a><span class="lineno"><a class="code" href="interface_a_map_biz_extention.html#a3f41dff99609616131546b4c527bdcfd">  842</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) CGFloat lowestPriceForHotel; </div>
+<div class="line"><a name="l00843"></a><span class="lineno">  843</span>&#160;</div>
+<div class="line"><a name="l00847"></a><span class="lineno"><a class="code" href="interface_a_map_biz_extention.html#aa828d8c2e32ac2c7833aa594380344b4">  847</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) NSUInteger starForHotel; </div>
+<div class="line"><a name="l00848"></a><span class="lineno">  848</span>&#160;</div>
+<div class="line"><a name="l00852"></a><span class="lineno"><a class="code" href="interface_a_map_biz_extention.html#ade8f49f29b9785d541cee73b31729fee">  852</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) BOOL mealOrderingForDining; </div>
+<div class="line"><a name="l00853"></a><span class="lineno">  853</span>&#160;</div>
+<div class="line"><a name="l00857"></a><span class="lineno"><a class="code" href="interface_a_map_biz_extention.html#a156e5bbacf9a7f10081601b0087624a4">  857</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) BOOL seatOrderingForCinema; </div>
+<div class="line"><a name="l00858"></a><span class="lineno">  858</span>&#160;</div>
+<div class="line"><a name="l00862"></a><span class="lineno"><a class="code" href="interface_a_map_biz_extention.html#ab275f4a8ce0f8ab8bf77bc7d7ada6db0">  862</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) BOOL ticketOrderingForScenic;</div>
+<div class="line"><a name="l00863"></a><span class="lineno">  863</span>&#160;</div>
+<div class="line"><a name="l00867"></a><span class="lineno"><a class="code" href="interface_a_map_biz_extention.html#a265993ea4a91adfe137bf758c4e5590e">  867</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) BOOL hasGroupbuy; </div>
+<div class="line"><a name="l00868"></a><span class="lineno">  868</span>&#160;</div>
+<div class="line"><a name="l00872"></a><span class="lineno"><a class="code" href="interface_a_map_biz_extention.html#aa51f630331766236eafee5991fd23ae2">  872</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) BOOL hasDiscount; </div>
+<div class="line"><a name="l00873"></a><span class="lineno">  873</span>&#160;</div>
+<div class="line"><a name="l00874"></a><span class="lineno">  874</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00875"></a><span class="lineno">  875</span>&#160;</div>
+<div class="line"><a name="l00876"></a><span class="lineno">  876</span>&#160;<span class="preprocessor">#pragma mark - #查询结果数据类型</span></div>
+<div class="line"><a name="l00877"></a><span class="lineno">  877</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00880"></a><span class="lineno"><a class="code" href="interface_a_map_p_o_i.html">  880</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_p_o_i.html" title="兴趣点信息类，用于存储兴趣点的名称、地址、经纬度、电话等。 ">AMapPOI</a> : NSObject</div>
+<div class="line"><a name="l00881"></a><span class="lineno">  881</span>&#160;</div>
+<div class="line"><a name="l00882"></a><span class="lineno">  882</span>&#160;</div>
+<div class="line"><a name="l00886"></a><span class="lineno"><a class="code" href="interface_a_map_p_o_i.html#a07852d7ea37cbbe450d5c79353f6d04d">  886</a></span>&#160;<span class="keyword">@property</span> (nonatomic,strong) NSString* uid; </div>
+<div class="line"><a name="l00887"></a><span class="lineno">  887</span>&#160;</div>
+<div class="line"><a name="l00891"></a><span class="lineno"><a class="code" href="interface_a_map_p_o_i.html#a16e942eb406ce2afc695752a8997d87a">  891</a></span>&#160;<span class="keyword">@property</span> (nonatomic,strong) NSString* name; </div>
+<div class="line"><a name="l00892"></a><span class="lineno">  892</span>&#160;</div>
+<div class="line"><a name="l00896"></a><span class="lineno"><a class="code" href="interface_a_map_p_o_i.html#af069caf8ee36c2ecab471e8529ff8a3c">  896</a></span>&#160;<span class="keyword">@property</span> (nonatomic,strong) NSString* type; </div>
+<div class="line"><a name="l00897"></a><span class="lineno">  897</span>&#160;</div>
+<div class="line"><a name="l00901"></a><span class="lineno"><a class="code" href="interface_a_map_p_o_i.html#ab4344e91e1c5c000c68aaf750d6d6779">  901</a></span>&#160;<span class="keyword">@property</span> (nonatomic,strong) <a class="code" href="interface_a_map_geo_point.html" title="搜索类使用的经纬度坐标类。 ">AMapGeoPoint</a>* location; </div>
+<div class="line"><a name="l00902"></a><span class="lineno">  902</span>&#160;</div>
+<div class="line"><a name="l00906"></a><span class="lineno"><a class="code" href="interface_a_map_p_o_i.html#afbd5df9960d85b409f3cd72ae4e7cd62">  906</a></span>&#160;<span class="keyword">@property</span> (nonatomic,strong) NSString* address; </div>
+<div class="line"><a name="l00907"></a><span class="lineno">  907</span>&#160;</div>
+<div class="line"><a name="l00911"></a><span class="lineno"><a class="code" href="interface_a_map_p_o_i.html#ab36b91772c353d6b6d5cbf114a400674">  911</a></span>&#160;<span class="keyword">@property</span> (nonatomic,strong) NSString* tel; </div>
+<div class="line"><a name="l00912"></a><span class="lineno">  912</span>&#160;</div>
+<div class="line"><a name="l00916"></a><span class="lineno"><a class="code" href="interface_a_map_p_o_i.html#a553a10e719dfa1081e28ff442fca1370">  916</a></span>&#160;<span class="keyword">@property</span> (nonatomic,assign) NSInteger distance; </div>
+<div class="line"><a name="l00917"></a><span class="lineno">  917</span>&#160;</div>
+<div class="line"><a name="l00921"></a><span class="lineno"><a class="code" href="interface_a_map_p_o_i.html#af0a91f62808628c36ac7e4fd48348787">  921</a></span>&#160;<span class="keyword">@property</span> (nonatomic,strong) NSString* postcode; </div>
+<div class="line"><a name="l00922"></a><span class="lineno">  922</span>&#160;</div>
+<div class="line"><a name="l00926"></a><span class="lineno"><a class="code" href="interface_a_map_p_o_i.html#a00ffa6485b2f98779167c51cdb3308a6">  926</a></span>&#160;<span class="keyword">@property</span> (nonatomic,strong) NSString* website; </div>
+<div class="line"><a name="l00927"></a><span class="lineno">  927</span>&#160;</div>
+<div class="line"><a name="l00931"></a><span class="lineno"><a class="code" href="interface_a_map_p_o_i.html#a8d4492ae22ea255addeef199d8517b88">  931</a></span>&#160;<span class="keyword">@property</span> (nonatomic,strong) NSString* email;</div>
+<div class="line"><a name="l00932"></a><span class="lineno">  932</span>&#160;</div>
+<div class="line"><a name="l00936"></a><span class="lineno"><a class="code" href="interface_a_map_p_o_i.html#a62f3a4767c2873c9314d6514e40804b0">  936</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *province; </div>
+<div class="line"><a name="l00937"></a><span class="lineno">  937</span>&#160;</div>
+<div class="line"><a name="l00941"></a><span class="lineno"><a class="code" href="interface_a_map_p_o_i.html#a9709224bf6d093dd28d8b1f3311d27bd">  941</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *pcode; </div>
+<div class="line"><a name="l00942"></a><span class="lineno">  942</span>&#160;</div>
+<div class="line"><a name="l00946"></a><span class="lineno"><a class="code" href="interface_a_map_p_o_i.html#af01d31866a6a9b216382ce757fa299be">  946</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *city;</div>
+<div class="line"><a name="l00950"></a><span class="lineno"><a class="code" href="interface_a_map_p_o_i.html#ada009d1dd8bc278a35aae7e343e7823d">  950</a></span>&#160;<span class="keyword">@property</span> (nonatomic,strong) NSString* citycode;</div>
+<div class="line"><a name="l00951"></a><span class="lineno">  951</span>&#160;</div>
+<div class="line"><a name="l00955"></a><span class="lineno"><a class="code" href="interface_a_map_p_o_i.html#a54cb5d12af658ba87d42d9583952d41d">  955</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *district; </div>
+<div class="line"><a name="l00956"></a><span class="lineno">  956</span>&#160;</div>
+<div class="line"><a name="l00960"></a><span class="lineno"><a class="code" href="interface_a_map_p_o_i.html#afe0205f9e5e0b7a30e68934e491e4185">  960</a></span>&#160;<span class="keyword">@property</span> (nonatomic,strong) NSString* adcode; </div>
+<div class="line"><a name="l00961"></a><span class="lineno">  961</span>&#160;</div>
+<div class="line"><a name="l00965"></a><span class="lineno"><a class="code" href="interface_a_map_p_o_i.html#a4540c2ba7d7aab749f818516610744ab">  965</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *gridcode;</div>
+<div class="line"><a name="l00966"></a><span class="lineno">  966</span>&#160;</div>
+<div class="line"><a name="l00970"></a><span class="lineno"><a class="code" href="interface_a_map_p_o_i.html#ab4e976354fc01807f824d4cf8dc6f853">  970</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *navipoiid;</div>
+<div class="line"><a name="l00971"></a><span class="lineno">  971</span>&#160;</div>
+<div class="line"><a name="l00975"></a><span class="lineno"><a class="code" href="interface_a_map_p_o_i.html#ae78fc972273e86f8e4ba989348427e3f">  975</a></span>&#160;<span class="keyword">@property</span> (nonatomic,strong) <a class="code" href="interface_a_map_geo_point.html" title="搜索类使用的经纬度坐标类。 ">AMapGeoPoint</a>* enterLocation; </div>
+<div class="line"><a name="l00976"></a><span class="lineno">  976</span>&#160;</div>
+<div class="line"><a name="l00980"></a><span class="lineno"><a class="code" href="interface_a_map_p_o_i.html#ab2b13e9a9efde2bdfcee317c14b96727">  980</a></span>&#160;<span class="keyword">@property</span> (nonatomic,strong) <a class="code" href="interface_a_map_geo_point.html" title="搜索类使用的经纬度坐标类。 ">AMapGeoPoint</a>* exitLocation;</div>
+<div class="line"><a name="l00981"></a><span class="lineno">  981</span>&#160;</div>
+<div class="line"><a name="l00985"></a><span class="lineno"><a class="code" href="interface_a_map_p_o_i.html#af16efa735ddd3374bd4e51d8c76a4f8b">  985</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) CGFloat weight;</div>
+<div class="line"><a name="l00986"></a><span class="lineno">  986</span>&#160;</div>
+<div class="line"><a name="l00990"></a><span class="lineno"><a class="code" href="interface_a_map_p_o_i.html#a35843fe168db011ce061aa153b2bce3c">  990</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) CGFloat match;</div>
+<div class="line"><a name="l00991"></a><span class="lineno">  991</span>&#160;</div>
+<div class="line"><a name="l00995"></a><span class="lineno"><a class="code" href="interface_a_map_p_o_i.html#a1e9431d8155acfbd07c830467b4ea789">  995</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) NSInteger recommend;</div>
+<div class="line"><a name="l00996"></a><span class="lineno">  996</span>&#160;</div>
+<div class="line"><a name="l01000"></a><span class="lineno"><a class="code" href="interface_a_map_p_o_i.html#acc93cfb5010403dac37c559641f1c641"> 1000</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *timestamp;</div>
+<div class="line"><a name="l01001"></a><span class="lineno"> 1001</span>&#160;</div>
+<div class="line"><a name="l01005"></a><span class="lineno"><a class="code" href="interface_a_map_p_o_i.html#a71469c6ea926d09570abb1762a46ae22"> 1005</a></span>&#160;<span class="keyword">@property</span> (nonatomic,strong) NSString *direction; </div>
+<div class="line"><a name="l01009"></a><span class="lineno"><a class="code" href="interface_a_map_p_o_i.html#a7fbe63471d0250df59a2e34cf4cf203f"> 1009</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) BOOL hasIndoorMap;</div>
+<div class="line"><a name="l01010"></a><span class="lineno"> 1010</span>&#160;</div>
+<div class="line"><a name="l01014"></a><span class="lineno"><a class="code" href="interface_a_map_p_o_i.html#ab22fd718a572250d0ee1178f9eba8860"> 1014</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *indoorMapProvider;</div>
+<div class="line"><a name="l01015"></a><span class="lineno"> 1015</span>&#160;</div>
+<div class="line"><a name="l01016"></a><span class="lineno"> 1016</span>&#160;</div>
+<div class="line"><a name="l01020"></a><span class="lineno"><a class="code" href="interface_a_map_p_o_i.html#a8fcb7b8a1698932df9d73135053afc54"> 1020</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *businessArea;</div>
+<div class="line"><a name="l01021"></a><span class="lineno"> 1021</span>&#160;</div>
+<div class="line"><a name="l01026"></a><span class="lineno"><a class="code" href="interface_a_map_p_o_i.html#a4516f0234d1552fcc54d334f55222b24"> 1026</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) NSInteger groupbuyNum;</div>
+<div class="line"><a name="l01027"></a><span class="lineno"> 1027</span>&#160;</div>
+<div class="line"><a name="l01032"></a><span class="lineno"><a class="code" href="interface_a_map_p_o_i.html#ad9235b9f1a18382059b22f0b0a4f85f9"> 1032</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) NSInteger discountNum;</div>
+<div class="line"><a name="l01033"></a><span class="lineno"> 1033</span>&#160;</div>
+<div class="line"><a name="l01037"></a><span class="lineno"><a class="code" href="interface_a_map_p_o_i.html#a7a71248884cdf7ec58bd9af85bfdeab8"> 1037</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) <a class="code" href="interface_a_map_biz_extention.html" title="行业扩展信息。 ">AMapBizExtention</a> *bizExtention;</div>
+<div class="line"><a name="l01038"></a><span class="lineno"> 1038</span>&#160;</div>
+<div class="line"><a name="l01042"></a><span class="lineno"><a class="code" href="interface_a_map_p_o_i.html#a84fffd0cbcd3308f9c01d1469bbb1a53"> 1042</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) <a class="code" href="interface_a_map_rich_content.html" title="深度信息类（团购和优惠）。 ">AMapRichContent</a> *richContent; </div>
+<div class="line"><a name="l01046"></a><span class="lineno"><a class="code" href="interface_a_map_p_o_i.html#aa83e27fe6c54775bd500210fe7ae6aa3"> 1046</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) <a class="code" href="interface_a_map_deep_content.html" title="行业深度信息。 ">AMapDeepContent</a> *deepContent; </div>
+<div class="line"><a name="l01047"></a><span class="lineno"> 1047</span>&#160;</div>
+<div class="line"><a name="l01048"></a><span class="lineno"> 1048</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l01049"></a><span class="lineno"> 1049</span>&#160;</div>
+<div class="line"><a name="l01050"></a><span class="lineno"> 1050</span>&#160;</div>
+<div class="line"><a name="l01054"></a><span class="lineno"><a class="code" href="interface_a_map_bus_stop.html"> 1054</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_bus_stop.html" title="公交站点信息类。 ">AMapBusStop</a> : NSObject</div>
+<div class="line"><a name="l01055"></a><span class="lineno"> 1055</span>&#160;</div>
+<div class="line"><a name="l01059"></a><span class="lineno"><a class="code" href="interface_a_map_bus_stop.html#a6589bffca062864784e0685e12be1f8f"> 1059</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *uid; </div>
+<div class="line"><a name="l01060"></a><span class="lineno"> 1060</span>&#160;</div>
+<div class="line"><a name="l01064"></a><span class="lineno"><a class="code" href="interface_a_map_bus_stop.html#aafdde7ecba5a9cfd718c22dceb2c7f8d"> 1064</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *name; </div>
+<div class="line"><a name="l01065"></a><span class="lineno"> 1065</span>&#160;</div>
+<div class="line"><a name="l01069"></a><span class="lineno"><a class="code" href="interface_a_map_bus_stop.html#a91f7f4049420e3b4e26608b2a529f69a"> 1069</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) NSInteger sequence; </div>
+<div class="line"><a name="l01070"></a><span class="lineno"> 1070</span>&#160;</div>
+<div class="line"><a name="l01074"></a><span class="lineno"><a class="code" href="interface_a_map_bus_stop.html#af5eb30491a2ca320aa491e2b1fd529a4"> 1074</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *citycode; </div>
+<div class="line"><a name="l01075"></a><span class="lineno"> 1075</span>&#160;</div>
+<div class="line"><a name="l01079"></a><span class="lineno"><a class="code" href="interface_a_map_bus_stop.html#a754bb1640b5a573487518dc7b511760c"> 1079</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *adcode; </div>
+<div class="line"><a name="l01080"></a><span class="lineno"> 1080</span>&#160;</div>
+<div class="line"><a name="l01084"></a><span class="lineno"><a class="code" href="interface_a_map_bus_stop.html#a0128543bc3d51885506afd45d7a6bd20"> 1084</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *gridcode;</div>
+<div class="line"><a name="l01085"></a><span class="lineno"> 1085</span>&#160;</div>
+<div class="line"><a name="l01089"></a><span class="lineno"><a class="code" href="interface_a_map_bus_stop.html#aef22ce2ec93190b951b907c74efb3dd4"> 1089</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) <a class="code" href="interface_a_map_geo_point.html" title="搜索类使用的经纬度坐标类。 ">AMapGeoPoint</a> *location; </div>
+<div class="line"><a name="l01090"></a><span class="lineno"> 1090</span>&#160;</div>
+<div class="line"><a name="l01094"></a><span class="lineno"><a class="code" href="interface_a_map_bus_stop.html#afd142285890c127a12adeedf7ee51d66"> 1094</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *timestamp;</div>
+<div class="line"><a name="l01095"></a><span class="lineno"> 1095</span>&#160;</div>
+<div class="line"><a name="l01099"></a><span class="lineno"><a class="code" href="interface_a_map_bus_stop.html#a88a886655f481651b05584616701b2b1"> 1099</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSArray *buslines; </div>
+<div class="line"><a name="l01100"></a><span class="lineno"> 1100</span>&#160;</div>
+<div class="line"><a name="l01101"></a><span class="lineno"> 1101</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l01102"></a><span class="lineno"> 1102</span>&#160;</div>
+<div class="line"><a name="l01103"></a><span class="lineno"> 1103</span>&#160;</div>
+<div class="line"><a name="l01107"></a><span class="lineno"><a class="code" href="interface_a_map_bus_line.html"> 1107</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_bus_line.html" title="公交线路信息类。 ">AMapBusLine</a> : NSObject</div>
+<div class="line"><a name="l01108"></a><span class="lineno"> 1108</span>&#160;</div>
+<div class="line"><a name="l01112"></a><span class="lineno"><a class="code" href="interface_a_map_bus_line.html#aac351ce7c292ac9df46f9676b428ea3d"> 1112</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *uid; </div>
+<div class="line"><a name="l01113"></a><span class="lineno"> 1113</span>&#160;</div>
+<div class="line"><a name="l01117"></a><span class="lineno"><a class="code" href="interface_a_map_bus_line.html#a87e73e61ec5ff0b11bfd100774c61550"> 1117</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *name;</div>
+<div class="line"><a name="l01118"></a><span class="lineno"> 1118</span>&#160;</div>
+<div class="line"><a name="l01122"></a><span class="lineno"><a class="code" href="interface_a_map_bus_line.html#acc74d906de687d8e96c51a6189a7949c"> 1122</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *type; </div>
+<div class="line"><a name="l01123"></a><span class="lineno"> 1123</span>&#160;</div>
+<div class="line"><a name="l01127"></a><span class="lineno"><a class="code" href="interface_a_map_bus_line.html#a1f968c896c8249da93062fe684187e2c"> 1127</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *polyline;</div>
+<div class="line"><a name="l01128"></a><span class="lineno"> 1128</span>&#160;</div>
+<div class="line"><a name="l01132"></a><span class="lineno"><a class="code" href="interface_a_map_bus_line.html#ab8c0cfa47778f2930ab16eb1039a1e93"> 1132</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *citycode; </div>
+<div class="line"><a name="l01133"></a><span class="lineno"> 1133</span>&#160;</div>
+<div class="line"><a name="l01137"></a><span class="lineno"><a class="code" href="interface_a_map_bus_line.html#af6bad7c0524b08817c1acbba337e0289"> 1137</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *gridcode;</div>
+<div class="line"><a name="l01138"></a><span class="lineno"> 1138</span>&#160;</div>
+<div class="line"><a name="l01142"></a><span class="lineno"><a class="code" href="interface_a_map_bus_line.html#a90072c3f91a511ce82fbbee9b673c4a6"> 1142</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) <a class="code" href="interface_a_map_bus_stop.html" title="公交站点信息类。 ">AMapBusStop</a> *startStop; </div>
+<div class="line"><a name="l01143"></a><span class="lineno"> 1143</span>&#160;</div>
+<div class="line"><a name="l01147"></a><span class="lineno"><a class="code" href="interface_a_map_bus_line.html#af999c9c91e0a2c68ca3f1a1fa616856e"> 1147</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) <a class="code" href="interface_a_map_bus_stop.html" title="公交站点信息类。 ">AMapBusStop</a> *endStop; </div>
+<div class="line"><a name="l01148"></a><span class="lineno"> 1148</span>&#160;</div>
+<div class="line"><a name="l01152"></a><span class="lineno"><a class="code" href="interface_a_map_bus_line.html#a438ddb2f8e8364cfa262d977ac79ec3a"> 1152</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *startTime; </div>
+<div class="line"><a name="l01153"></a><span class="lineno"> 1153</span>&#160;</div>
+<div class="line"><a name="l01157"></a><span class="lineno"><a class="code" href="interface_a_map_bus_line.html#afc10a86f73b54ce5ab9fded25ea90ba5"> 1157</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *endTime; </div>
+<div class="line"><a name="l01158"></a><span class="lineno"> 1158</span>&#160;</div>
+<div class="line"><a name="l01162"></a><span class="lineno"><a class="code" href="interface_a_map_bus_line.html#a4aa2168724231b743769f6b3f8e45760"> 1162</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *company; </div>
+<div class="line"><a name="l01163"></a><span class="lineno"> 1163</span>&#160;</div>
+<div class="line"><a name="l01167"></a><span class="lineno"><a class="code" href="interface_a_map_bus_line.html#a35beddd7e64891e02b78444c80989043"> 1167</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) <span class="keywordtype">float</span> distance;</div>
+<div class="line"><a name="l01168"></a><span class="lineno"> 1168</span>&#160;</div>
+<div class="line"><a name="l01172"></a><span class="lineno"><a class="code" href="interface_a_map_bus_line.html#aef9fd26fcaad07467799cdab0ead7509"> 1172</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) NSInteger duration;</div>
+<div class="line"><a name="l01173"></a><span class="lineno"> 1173</span>&#160;</div>
+<div class="line"><a name="l01177"></a><span class="lineno"><a class="code" href="interface_a_map_bus_line.html#ae7fc635e7e90fe3bba997883c6e3996f"> 1177</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) <span class="keywordtype">float</span> basicPrice; </div>
+<div class="line"><a name="l01178"></a><span class="lineno"> 1178</span>&#160;</div>
+<div class="line"><a name="l01182"></a><span class="lineno"><a class="code" href="interface_a_map_bus_line.html#a95aa06c3e3f323d75b4851146fddaf04"> 1182</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) <span class="keywordtype">float</span> totalPrice; </div>
+<div class="line"><a name="l01183"></a><span class="lineno"> 1183</span>&#160;</div>
+<div class="line"><a name="l01187"></a><span class="lineno"><a class="code" href="interface_a_map_bus_line.html#a5cba3f9fcc85637ad9f1b2404b3ddaf9"> 1187</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSArray *bounds; </div>
+<div class="line"><a name="l01188"></a><span class="lineno"> 1188</span>&#160;</div>
+<div class="line"><a name="l01192"></a><span class="lineno"><a class="code" href="interface_a_map_bus_line.html#abc66ebc9444cd49d093c8d68fbad5edd"> 1192</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) NSInteger busStopsNum;</div>
+<div class="line"><a name="l01193"></a><span class="lineno"> 1193</span>&#160;</div>
+<div class="line"><a name="l01197"></a><span class="lineno"><a class="code" href="interface_a_map_bus_line.html#ada9a0cb5dc921e26cdc14f2c029be9ea"> 1197</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSArray *busStops; </div>
+<div class="line"><a name="l01198"></a><span class="lineno"> 1198</span>&#160;</div>
+<div class="line"><a name="l01202"></a><span class="lineno"><a class="code" href="interface_a_map_bus_line.html#a832213d6622f606e78d6970d1ba7d3dd"> 1202</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) <a class="code" href="interface_a_map_bus_stop.html" title="公交站点信息类。 ">AMapBusStop</a> *departureStop; </div>
+<div class="line"><a name="l01203"></a><span class="lineno"> 1203</span>&#160;</div>
+<div class="line"><a name="l01207"></a><span class="lineno"><a class="code" href="interface_a_map_bus_line.html#aaab507fc57b0d06c398085425c691404"> 1207</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) <a class="code" href="interface_a_map_bus_stop.html" title="公交站点信息类。 ">AMapBusStop</a> *arrivalStop; </div>
+<div class="line"><a name="l01208"></a><span class="lineno"> 1208</span>&#160;</div>
+<div class="line"><a name="l01209"></a><span class="lineno"> 1209</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l01210"></a><span class="lineno"> 1210</span>&#160;</div>
+<div class="line"><a name="l01214"></a><span class="lineno"><a class="code" href="interface_a_map_tip.html"> 1214</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_tip.html" title="输入提示信息类。 ">AMapTip</a> : NSObject</div>
+<div class="line"><a name="l01215"></a><span class="lineno"> 1215</span>&#160;</div>
+<div class="line"><a name="l01219"></a><span class="lineno"><a class="code" href="interface_a_map_tip.html#a03d0b70029cd3fe27f0073c04d623eff"> 1219</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *name; </div>
+<div class="line"><a name="l01220"></a><span class="lineno"> 1220</span>&#160;</div>
+<div class="line"><a name="l01224"></a><span class="lineno"><a class="code" href="interface_a_map_tip.html#a35cd68bcda7eb98f12de4a73b636b5b6"> 1224</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *adcode;</div>
+<div class="line"><a name="l01225"></a><span class="lineno"> 1225</span>&#160;</div>
+<div class="line"><a name="l01229"></a><span class="lineno"><a class="code" href="interface_a_map_tip.html#ae742b4c342657bd95f6d4984bbd16529"> 1229</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *district;</div>
+<div class="line"><a name="l01230"></a><span class="lineno"> 1230</span>&#160;</div>
+<div class="line"><a name="l01240"></a><span class="lineno"> 1240</span>&#160;+ (<a class="code" href="interface_a_map_tip.html" title="输入提示信息类。 ">AMapTip</a> *)tipWithName:(NSString *)name adcode:(NSString *)adcode district:(NSString *)district;</div>
+<div class="line"><a name="l01241"></a><span class="lineno"> 1241</span>&#160;</div>
+<div class="line"><a name="l01242"></a><span class="lineno"> 1242</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l01243"></a><span class="lineno"> 1243</span>&#160;</div>
+<div class="line"><a name="l01244"></a><span class="lineno"> 1244</span>&#160;</div>
+<div class="line"><a name="l01248"></a><span class="lineno"><a class="code" href="interface_a_map_geocode.html"> 1248</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_geocode.html" title="地理编码信息类。 ">AMapGeocode</a> : NSObject</div>
+<div class="line"><a name="l01249"></a><span class="lineno"> 1249</span>&#160;</div>
+<div class="line"><a name="l01253"></a><span class="lineno"><a class="code" href="interface_a_map_geocode.html#a9fde49057d7d87a61af96138d0d81d7c"> 1253</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *formattedAddress; </div>
+<div class="line"><a name="l01254"></a><span class="lineno"> 1254</span>&#160;</div>
+<div class="line"><a name="l01258"></a><span class="lineno"><a class="code" href="interface_a_map_geocode.html#a76e85fd7cebab631cd0010c1041f8fc7"> 1258</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *province; </div>
+<div class="line"><a name="l01259"></a><span class="lineno"> 1259</span>&#160;</div>
+<div class="line"><a name="l01263"></a><span class="lineno"><a class="code" href="interface_a_map_geocode.html#a8e61ca40b73ea380bdd25aafd15c12e5"> 1263</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *city; </div>
+<div class="line"><a name="l01264"></a><span class="lineno"> 1264</span>&#160;</div>
+<div class="line"><a name="l01268"></a><span class="lineno"><a class="code" href="interface_a_map_geocode.html#ae16d55a0de31c75185c420f807f76715"> 1268</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *district; </div>
+<div class="line"><a name="l01269"></a><span class="lineno"> 1269</span>&#160;</div>
+<div class="line"><a name="l01273"></a><span class="lineno"><a class="code" href="interface_a_map_geocode.html#a689b5c97a6a201a3e17ea3b7fc9aa0dd"> 1273</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *township; </div>
+<div class="line"><a name="l01274"></a><span class="lineno"> 1274</span>&#160;</div>
+<div class="line"><a name="l01278"></a><span class="lineno"><a class="code" href="interface_a_map_geocode.html#a981b2844749ecef7f276730a22d397b7"> 1278</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *neighborhood;</div>
+<div class="line"><a name="l01279"></a><span class="lineno"> 1279</span>&#160;</div>
+<div class="line"><a name="l01283"></a><span class="lineno"><a class="code" href="interface_a_map_geocode.html#a751508eb5f84e27d1d2573370e91b6cf"> 1283</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *building; </div>
+<div class="line"><a name="l01284"></a><span class="lineno"> 1284</span>&#160;</div>
+<div class="line"><a name="l01288"></a><span class="lineno"><a class="code" href="interface_a_map_geocode.html#a8bc2a463420dfbdfd83f6d3ef770b232"> 1288</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *adcode; </div>
+<div class="line"><a name="l01289"></a><span class="lineno"> 1289</span>&#160;</div>
+<div class="line"><a name="l01293"></a><span class="lineno"><a class="code" href="interface_a_map_geocode.html#adf41b2c45eefb576bfcf5bc08a50b381"> 1293</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) <a class="code" href="interface_a_map_geo_point.html" title="搜索类使用的经纬度坐标类。 ">AMapGeoPoint</a> *location; </div>
+<div class="line"><a name="l01294"></a><span class="lineno"> 1294</span>&#160;</div>
+<div class="line"><a name="l01298"></a><span class="lineno"><a class="code" href="interface_a_map_geocode.html#a774e26b9e864710ed81005643392f46a"> 1298</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSArray *level; </div>
+<div class="line"><a name="l01299"></a><span class="lineno"> 1299</span>&#160;</div>
+<div class="line"><a name="l01300"></a><span class="lineno"> 1300</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l01301"></a><span class="lineno"> 1301</span>&#160;</div>
+<div class="line"><a name="l01305"></a><span class="lineno"><a class="code" href="interface_a_map_road.html"> 1305</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_road.html" title="道路信息类。 ">AMapRoad</a> : NSObject</div>
+<div class="line"><a name="l01306"></a><span class="lineno"> 1306</span>&#160;</div>
+<div class="line"><a name="l01310"></a><span class="lineno"><a class="code" href="interface_a_map_road.html#a3650062b06bdfd588fb416ce8af831c0"> 1310</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *uid; </div>
+<div class="line"><a name="l01311"></a><span class="lineno"> 1311</span>&#160;</div>
+<div class="line"><a name="l01315"></a><span class="lineno"><a class="code" href="interface_a_map_road.html#ae662b7ee5469fd8a02b6745dfd6aff9c"> 1315</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *name; </div>
+<div class="line"><a name="l01316"></a><span class="lineno"> 1316</span>&#160;</div>
+<div class="line"><a name="l01320"></a><span class="lineno"><a class="code" href="interface_a_map_road.html#a2f18016a16a48c150b10da4e0ad2de4c"> 1320</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) NSInteger distance; </div>
+<div class="line"><a name="l01321"></a><span class="lineno"> 1321</span>&#160;</div>
+<div class="line"><a name="l01325"></a><span class="lineno"><a class="code" href="interface_a_map_road.html#ae323c8221a83b905b2cb9dc5d59d2b4d"> 1325</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *direction; </div>
+<div class="line"><a name="l01326"></a><span class="lineno"> 1326</span>&#160;</div>
+<div class="line"><a name="l01330"></a><span class="lineno"><a class="code" href="interface_a_map_road.html#a065117a9d8b4aa51ac883dc2f64941ba"> 1330</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) <a class="code" href="interface_a_map_geo_point.html" title="搜索类使用的经纬度坐标类。 ">AMapGeoPoint</a> *location; </div>
+<div class="line"><a name="l01331"></a><span class="lineno"> 1331</span>&#160;</div>
+<div class="line"><a name="l01335"></a><span class="lineno"><a class="code" href="interface_a_map_road.html#a69284ba36fd211f29545bd4b56385ab8"> 1335</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *citycode; </div>
+<div class="line"><a name="l01336"></a><span class="lineno"> 1336</span>&#160;</div>
+<div class="line"><a name="l01340"></a><span class="lineno"><a class="code" href="interface_a_map_road.html#a04c20122f31ae854865f32c84a0d4657"> 1340</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *width; </div>
+<div class="line"><a name="l01341"></a><span class="lineno"> 1341</span>&#160;</div>
+<div class="line"><a name="l01345"></a><span class="lineno"><a class="code" href="interface_a_map_road.html#af70a9347f96fd3aee2700415e3d9e8e9"> 1345</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *type; </div>
+<div class="line"><a name="l01346"></a><span class="lineno"> 1346</span>&#160;</div>
+<div class="line"><a name="l01347"></a><span class="lineno"> 1347</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l01348"></a><span class="lineno"> 1348</span>&#160;</div>
+<div class="line"><a name="l01352"></a><span class="lineno"><a class="code" href="interface_a_map_road_inter.html"> 1352</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_road_inter.html" title="道路交叉口信息类。 ">AMapRoadInter</a> : NSObject</div>
+<div class="line"><a name="l01353"></a><span class="lineno"> 1353</span>&#160;</div>
+<div class="line"><a name="l01357"></a><span class="lineno"><a class="code" href="interface_a_map_road_inter.html#a3158c352710bfdd7fea8a6d342803c36"> 1357</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) NSInteger distance; </div>
+<div class="line"><a name="l01358"></a><span class="lineno"> 1358</span>&#160;</div>
+<div class="line"><a name="l01362"></a><span class="lineno"><a class="code" href="interface_a_map_road_inter.html#ae997ee65a07ac8b79748ed279b1c2b73"> 1362</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *direction; </div>
+<div class="line"><a name="l01363"></a><span class="lineno"> 1363</span>&#160;</div>
+<div class="line"><a name="l01367"></a><span class="lineno"><a class="code" href="interface_a_map_road_inter.html#aef89806d1acf442780697ef383de5b9e"> 1367</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) <a class="code" href="interface_a_map_geo_point.html" title="搜索类使用的经纬度坐标类。 ">AMapGeoPoint</a> *location; </div>
+<div class="line"><a name="l01368"></a><span class="lineno"> 1368</span>&#160;</div>
+<div class="line"><a name="l01372"></a><span class="lineno"><a class="code" href="interface_a_map_road_inter.html#a23a986bffa64759e49bd2e7bec2b5fbc"> 1372</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *firstId; </div>
+<div class="line"><a name="l01373"></a><span class="lineno"> 1373</span>&#160;</div>
+<div class="line"><a name="l01377"></a><span class="lineno"><a class="code" href="interface_a_map_road_inter.html#a72b86c5e278b077694326b8e212bf500"> 1377</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *firstName;</div>
+<div class="line"><a name="l01378"></a><span class="lineno"> 1378</span>&#160;</div>
+<div class="line"><a name="l01382"></a><span class="lineno"><a class="code" href="interface_a_map_road_inter.html#a21b9fc14344d52c149779bd4433adbbe"> 1382</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *secondId; </div>
+<div class="line"><a name="l01383"></a><span class="lineno"> 1383</span>&#160;</div>
+<div class="line"><a name="l01387"></a><span class="lineno"><a class="code" href="interface_a_map_road_inter.html#ae0402df33b4e785199c5708f22f02cea"> 1387</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *secondName; </div>
+<div class="line"><a name="l01388"></a><span class="lineno"> 1388</span>&#160;</div>
+<div class="line"><a name="l01389"></a><span class="lineno"> 1389</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l01390"></a><span class="lineno"> 1390</span>&#160;</div>
+<div class="line"><a name="l01391"></a><span class="lineno"> 1391</span>&#160;</div>
+<div class="line"><a name="l01395"></a><span class="lineno"><a class="code" href="interface_a_map_street_number.html"> 1395</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_street_number.html" title="门牌信息类。 ">AMapStreetNumber</a> : NSObject</div>
+<div class="line"><a name="l01396"></a><span class="lineno"> 1396</span>&#160;</div>
+<div class="line"><a name="l01400"></a><span class="lineno"><a class="code" href="interface_a_map_street_number.html#a94d27b3a1b30cfe4b03c364f6e5aad94"> 1400</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *street; </div>
+<div class="line"><a name="l01401"></a><span class="lineno"> 1401</span>&#160;</div>
+<div class="line"><a name="l01405"></a><span class="lineno"><a class="code" href="interface_a_map_street_number.html#af628d2ee8f3516e3943d9aca62736545"> 1405</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *number; </div>
+<div class="line"><a name="l01406"></a><span class="lineno"> 1406</span>&#160;</div>
+<div class="line"><a name="l01410"></a><span class="lineno"><a class="code" href="interface_a_map_street_number.html#ad9663ddfb96509d4ba58007bf48f83b7"> 1410</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) <a class="code" href="interface_a_map_geo_point.html" title="搜索类使用的经纬度坐标类。 ">AMapGeoPoint</a> *location; </div>
+<div class="line"><a name="l01411"></a><span class="lineno"> 1411</span>&#160;</div>
+<div class="line"><a name="l01415"></a><span class="lineno"><a class="code" href="interface_a_map_street_number.html#a309c7b1bcad5869677be2523c0f9987f"> 1415</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) NSInteger distance; </div>
+<div class="line"><a name="l01416"></a><span class="lineno"> 1416</span>&#160;</div>
+<div class="line"><a name="l01420"></a><span class="lineno"><a class="code" href="interface_a_map_street_number.html#ae81cd3757238e548c5ed7e1a38425eb8"> 1420</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *direction; </div>
+<div class="line"><a name="l01421"></a><span class="lineno"> 1421</span>&#160;</div>
+<div class="line"><a name="l01422"></a><span class="lineno"> 1422</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l01423"></a><span class="lineno"> 1423</span>&#160;</div>
+<div class="line"><a name="l01424"></a><span class="lineno"> 1424</span>&#160;</div>
+<div class="line"><a name="l01428"></a><span class="lineno"><a class="code" href="interface_a_map_address_component.html"> 1428</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_address_component.html" title="地址信息类。 ">AMapAddressComponent</a> : NSObject</div>
+<div class="line"><a name="l01429"></a><span class="lineno"> 1429</span>&#160;</div>
+<div class="line"><a name="l01433"></a><span class="lineno"><a class="code" href="interface_a_map_address_component.html#af56c7984016d644acfeb617b1ad8dee4"> 1433</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *province; </div>
+<div class="line"><a name="l01434"></a><span class="lineno"> 1434</span>&#160;</div>
+<div class="line"><a name="l01438"></a><span class="lineno"><a class="code" href="interface_a_map_address_component.html#a174e70f776a2a635c24a84f46b45d757"> 1438</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *city; </div>
+<div class="line"><a name="l01439"></a><span class="lineno"> 1439</span>&#160;</div>
+<div class="line"><a name="l01443"></a><span class="lineno"><a class="code" href="interface_a_map_address_component.html#a4211ca2815fa652975bf6486c437e1a4"> 1443</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *district; </div>
+<div class="line"><a name="l01444"></a><span class="lineno"> 1444</span>&#160;</div>
+<div class="line"><a name="l01448"></a><span class="lineno"><a class="code" href="interface_a_map_address_component.html#a168f8c34f3b0928ca32a9abd6fb127dc"> 1448</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *township; </div>
+<div class="line"><a name="l01449"></a><span class="lineno"> 1449</span>&#160;</div>
+<div class="line"><a name="l01453"></a><span class="lineno"><a class="code" href="interface_a_map_address_component.html#a258d0e76aab74b61b5071601bbe7370b"> 1453</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *neighborhood;</div>
+<div class="line"><a name="l01454"></a><span class="lineno"> 1454</span>&#160;</div>
+<div class="line"><a name="l01458"></a><span class="lineno"><a class="code" href="interface_a_map_address_component.html#a389ae9c7983e600eb85bac011f4029b5"> 1458</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *building;</div>
+<div class="line"><a name="l01459"></a><span class="lineno"> 1459</span>&#160;</div>
+<div class="line"><a name="l01463"></a><span class="lineno"><a class="code" href="interface_a_map_address_component.html#a4c662fff9a0df21549d3b70537868077"> 1463</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *citycode;</div>
+<div class="line"><a name="l01464"></a><span class="lineno"> 1464</span>&#160;</div>
+<div class="line"><a name="l01468"></a><span class="lineno"><a class="code" href="interface_a_map_address_component.html#a43d6d0f4d8713c5523f7a878701da7d8"> 1468</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *adcode;</div>
+<div class="line"><a name="l01469"></a><span class="lineno"> 1469</span>&#160;</div>
+<div class="line"><a name="l01473"></a><span class="lineno"><a class="code" href="interface_a_map_address_component.html#a1068680bdfee1af22a06ed67eef63053"> 1473</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) <a class="code" href="interface_a_map_street_number.html" title="门牌信息类。 ">AMapStreetNumber</a> *streetNumber;</div>
+<div class="line"><a name="l01474"></a><span class="lineno"> 1474</span>&#160;</div>
+<div class="line"><a name="l01475"></a><span class="lineno"> 1475</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l01476"></a><span class="lineno"> 1476</span>&#160;</div>
+<div class="line"><a name="l01480"></a><span class="lineno"><a class="code" href="interface_a_map_re_geocode.html"> 1480</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_re_geocode.html" title="逆地理编码信息类。 ">AMapReGeocode</a> : NSObject</div>
+<div class="line"><a name="l01481"></a><span class="lineno"> 1481</span>&#160;</div>
+<div class="line"><a name="l01485"></a><span class="lineno"><a class="code" href="interface_a_map_re_geocode.html#a8dd80dabc9b2ad24c6d338e5465ae0f6"> 1485</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *formattedAddress;</div>
+<div class="line"><a name="l01486"></a><span class="lineno"> 1486</span>&#160;</div>
+<div class="line"><a name="l01490"></a><span class="lineno"><a class="code" href="interface_a_map_re_geocode.html#a32915e012d25f3527607ef6141280e3d"> 1490</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) <a class="code" href="interface_a_map_address_component.html" title="地址信息类。 ">AMapAddressComponent</a> *addressComponent; </div>
+<div class="line"><a name="l01491"></a><span class="lineno"> 1491</span>&#160;</div>
+<div class="line"><a name="l01495"></a><span class="lineno"><a class="code" href="interface_a_map_re_geocode.html#a6a22b6bb174a3125a2081716adb6aafe"> 1495</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSArray *roads; </div>
+<div class="line"><a name="l01496"></a><span class="lineno"> 1496</span>&#160;</div>
+<div class="line"><a name="l01500"></a><span class="lineno"><a class="code" href="interface_a_map_re_geocode.html#ab8a4e2b9ac6bdac313385b9a568eb1e6"> 1500</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSArray *roadinters; </div>
+<div class="line"><a name="l01501"></a><span class="lineno"> 1501</span>&#160;</div>
+<div class="line"><a name="l01505"></a><span class="lineno"><a class="code" href="interface_a_map_re_geocode.html#a3d6c1a208ec8e85ce3e69911cfaeb3f9"> 1505</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSArray *pois; </div>
+<div class="line"><a name="l01506"></a><span class="lineno"> 1506</span>&#160;</div>
+<div class="line"><a name="l01507"></a><span class="lineno"> 1507</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l01508"></a><span class="lineno"> 1508</span>&#160;</div>
+<div class="line"><a name="l01509"></a><span class="lineno"> 1509</span>&#160;<span class="preprocessor">#pragma mark - #导航结果数据类型</span></div>
+<div class="line"><a name="l01510"></a><span class="lineno"> 1510</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l01514"></a><span class="lineno"><a class="code" href="interface_a_map_t_m_c.html"> 1514</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_t_m_c.html" title="实时交通信息类。 ">AMapTMC</a> : NSObject</div>
+<div class="line"><a name="l01515"></a><span class="lineno"> 1515</span>&#160;</div>
+<div class="line"><a name="l01519"></a><span class="lineno"><a class="code" href="interface_a_map_t_m_c.html#a97823d6ad119061fb630872781fca040"> 1519</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *lcode; </div>
+<div class="line"><a name="l01520"></a><span class="lineno"> 1520</span>&#160;</div>
+<div class="line"><a name="l01524"></a><span class="lineno"><a class="code" href="interface_a_map_t_m_c.html#ad07429a2b88d69b12aca30db58a6ccc0"> 1524</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) NSInteger distance;</div>
+<div class="line"><a name="l01525"></a><span class="lineno"> 1525</span>&#160;</div>
+<div class="line"><a name="l01529"></a><span class="lineno"><a class="code" href="interface_a_map_t_m_c.html#a68d2f10fe58bdb160d99d55dac69d76d"> 1529</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) NSInteger status; </div>
+<div class="line"><a name="l01530"></a><span class="lineno"> 1530</span>&#160;</div>
+<div class="line"><a name="l01540"></a><span class="lineno"> 1540</span>&#160;+ (<a class="code" href="interface_a_map_t_m_c.html" title="实时交通信息类。 ">AMapTMC</a> *)TMCWithLCode:(NSString *)lcode distance:(NSInteger)distance status:(NSInteger)status;</div>
+<div class="line"><a name="l01541"></a><span class="lineno"> 1541</span>&#160;</div>
+<div class="line"><a name="l01542"></a><span class="lineno"> 1542</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l01543"></a><span class="lineno"> 1543</span>&#160;</div>
+<div class="line"><a name="l01544"></a><span class="lineno"> 1544</span>&#160;</div>
+<div class="line"><a name="l01548"></a><span class="lineno"><a class="code" href="interface_a_map_step.html"> 1548</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_step.html" title="路段基本信息类，表示一条路线中某一路段的信息。 ">AMapStep</a> : NSObject</div>
+<div class="line"><a name="l01549"></a><span class="lineno"> 1549</span>&#160;</div>
+<div class="line"><a name="l01553"></a><span class="lineno"><a class="code" href="interface_a_map_step.html#ade98c180f08b39112936eaa121e1d330"> 1553</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *instruction; </div>
+<div class="line"><a name="l01554"></a><span class="lineno"> 1554</span>&#160;</div>
+<div class="line"><a name="l01558"></a><span class="lineno"><a class="code" href="interface_a_map_step.html#a1282b15ec891687315bc59bbc398a1e4"> 1558</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *orientation; </div>
+<div class="line"><a name="l01559"></a><span class="lineno"> 1559</span>&#160;</div>
+<div class="line"><a name="l01563"></a><span class="lineno"><a class="code" href="interface_a_map_step.html#a1b3a15620ef8589e381eeb4fbf8921ae"> 1563</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *road; </div>
+<div class="line"><a name="l01564"></a><span class="lineno"> 1564</span>&#160;</div>
+<div class="line"><a name="l01568"></a><span class="lineno"><a class="code" href="interface_a_map_step.html#a9a5cf75fd92ef40b14640131465922f7"> 1568</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) NSInteger distance; </div>
+<div class="line"><a name="l01572"></a><span class="lineno"><a class="code" href="interface_a_map_step.html#aa0bedda4995b7a026dd234e7b338359a"> 1572</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) NSInteger duration; </div>
+<div class="line"><a name="l01573"></a><span class="lineno"> 1573</span>&#160;</div>
+<div class="line"><a name="l01577"></a><span class="lineno"><a class="code" href="interface_a_map_step.html#a9ea1b4437d09d967a2aefe6ca3ddad31"> 1577</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *polyline; </div>
+<div class="line"><a name="l01578"></a><span class="lineno"> 1578</span>&#160;</div>
+<div class="line"><a name="l01582"></a><span class="lineno"><a class="code" href="interface_a_map_step.html#ab78d8a10ee4c953bee65ac029d9519c5"> 1582</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *action; </div>
+<div class="line"><a name="l01583"></a><span class="lineno"> 1583</span>&#160;</div>
+<div class="line"><a name="l01587"></a><span class="lineno"><a class="code" href="interface_a_map_step.html#acdd7a426063461258b6db2216e0c725c"> 1587</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *assistantAction;</div>
+<div class="line"><a name="l01588"></a><span class="lineno"> 1588</span>&#160;</div>
+<div class="line"><a name="l01592"></a><span class="lineno"><a class="code" href="interface_a_map_step.html#a650ab328fb696bcc2534fd5f5bd25f19"> 1592</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) CGFloat tolls; </div>
+<div class="line"><a name="l01593"></a><span class="lineno"> 1593</span>&#160;</div>
+<div class="line"><a name="l01597"></a><span class="lineno"><a class="code" href="interface_a_map_step.html#a927b0575da3a142870cb060dc4cd1e7c"> 1597</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) NSInteger tollDistance; </div>
+<div class="line"><a name="l01598"></a><span class="lineno"> 1598</span>&#160;</div>
+<div class="line"><a name="l01602"></a><span class="lineno"><a class="code" href="interface_a_map_step.html#a801a5933f40803e3570c328e6e0822d2"> 1602</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *tollRoad;</div>
+<div class="line"><a name="l01603"></a><span class="lineno"> 1603</span>&#160;</div>
+<div class="line"><a name="l01607"></a><span class="lineno"><a class="code" href="interface_a_map_step.html#a5520f8fda5b9b4a718bb16b39299d561"> 1607</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSArray *tmcs; </div>
+<div class="line"><a name="l01608"></a><span class="lineno"> 1608</span>&#160;</div>
+<div class="line"><a name="l01612"></a><span class="lineno"><a class="code" href="interface_a_map_step.html#aeddcc6b326229570283fa4bd9245d51e"> 1612</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSArray *cities;</div>
+<div class="line"><a name="l01613"></a><span class="lineno"> 1613</span>&#160;</div>
+<div class="line"><a name="l01614"></a><span class="lineno"> 1614</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l01615"></a><span class="lineno"> 1615</span>&#160;</div>
+<div class="line"><a name="l01616"></a><span class="lineno"> 1616</span>&#160;</div>
+<div class="line"><a name="l01620"></a><span class="lineno"><a class="code" href="interface_a_map_path.html"> 1620</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_path.html" title="驾车或步行路径规划的线路信息类，表示一次计算结果中某一条路线的信息。 ">AMapPath</a> : NSObject</div>
+<div class="line"><a name="l01621"></a><span class="lineno"> 1621</span>&#160;</div>
+<div class="line"><a name="l01625"></a><span class="lineno"><a class="code" href="interface_a_map_path.html#ab89fcbc7529a3f75b4d0348349fea3eb"> 1625</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) NSInteger distance;</div>
+<div class="line"><a name="l01626"></a><span class="lineno"> 1626</span>&#160;</div>
+<div class="line"><a name="l01630"></a><span class="lineno"><a class="code" href="interface_a_map_path.html#a88c277335cb074b71eb8a081297ef2bf"> 1630</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) NSInteger duration; </div>
+<div class="line"><a name="l01631"></a><span class="lineno"> 1631</span>&#160;</div>
+<div class="line"><a name="l01635"></a><span class="lineno"><a class="code" href="interface_a_map_path.html#a83851216ab7b03e9dcbb995f5a687bed"> 1635</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *strategy; </div>
+<div class="line"><a name="l01636"></a><span class="lineno"> 1636</span>&#160;</div>
+<div class="line"><a name="l01640"></a><span class="lineno"><a class="code" href="interface_a_map_path.html#a229d8ce048e843b3105d9501fff9e3de"> 1640</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSArray *steps; </div>
+<div class="line"><a name="l01641"></a><span class="lineno"> 1641</span>&#160;</div>
+<div class="line"><a name="l01645"></a><span class="lineno"><a class="code" href="interface_a_map_path.html#a342a3b066ddaf9537dff5adf99f262c6"> 1645</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) CGFloat tolls; </div>
+<div class="line"><a name="l01646"></a><span class="lineno"> 1646</span>&#160;</div>
+<div class="line"><a name="l01650"></a><span class="lineno"><a class="code" href="interface_a_map_path.html#aeb80fbd04a40a71e8ec5270f59e836ca"> 1650</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) NSInteger tollDistance; </div>
+<div class="line"><a name="l01651"></a><span class="lineno"> 1651</span>&#160;</div>
+<div class="line"><a name="l01652"></a><span class="lineno"> 1652</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l01653"></a><span class="lineno"> 1653</span>&#160;</div>
+<div class="line"><a name="l01654"></a><span class="lineno"> 1654</span>&#160;</div>
+<div class="line"><a name="l01658"></a><span class="lineno"><a class="code" href="interface_a_map_route.html"> 1658</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_route.html" title="路径规划（驾车、步行、公交）信息类，表示一次路径规划计算结果。 ">AMapRoute</a> : NSObject</div>
+<div class="line"><a name="l01659"></a><span class="lineno"> 1659</span>&#160;</div>
+<div class="line"><a name="l01663"></a><span class="lineno"><a class="code" href="interface_a_map_route.html#a6a8abeafed4a0eb58b7c7fccebbea25b"> 1663</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) <a class="code" href="interface_a_map_geo_point.html" title="搜索类使用的经纬度坐标类。 ">AMapGeoPoint</a> *origin; </div>
+<div class="line"><a name="l01664"></a><span class="lineno"> 1664</span>&#160;</div>
+<div class="line"><a name="l01668"></a><span class="lineno"><a class="code" href="interface_a_map_route.html#a44b73d931bf1f12ae60d6216b958f299"> 1668</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) <a class="code" href="interface_a_map_geo_point.html" title="搜索类使用的经纬度坐标类。 ">AMapGeoPoint</a> *destination; </div>
+<div class="line"><a name="l01669"></a><span class="lineno"> 1669</span>&#160;</div>
+<div class="line"><a name="l01673"></a><span class="lineno"><a class="code" href="interface_a_map_route.html#a6e58fde6a7931098fbab175b7db24ed2"> 1673</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) CGFloat taxiCost; </div>
+<div class="line"><a name="l01674"></a><span class="lineno"> 1674</span>&#160;</div>
+<div class="line"><a name="l01678"></a><span class="lineno"><a class="code" href="interface_a_map_route.html#a357670ba6d5c72dfa819fb586213c3b3"> 1678</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSArray *paths; </div>
+<div class="line"><a name="l01679"></a><span class="lineno"> 1679</span>&#160;</div>
+<div class="line"><a name="l01683"></a><span class="lineno"><a class="code" href="interface_a_map_route.html#ac9458fe66cf0241d6345f4d5d452a105"> 1683</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSArray *transits; </div>
+<div class="line"><a name="l01684"></a><span class="lineno"> 1684</span>&#160;</div>
+<div class="line"><a name="l01685"></a><span class="lineno"> 1685</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l01686"></a><span class="lineno"> 1686</span>&#160;</div>
+<div class="line"><a name="l01687"></a><span class="lineno"> 1687</span>&#160;</div>
+<div class="line"><a name="l01691"></a><span class="lineno"><a class="code" href="interface_a_map_walking.html"> 1691</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_walking.html" title="公交路径规划的步行换乘信息类。 ">AMapWalking</a> : NSObject</div>
+<div class="line"><a name="l01692"></a><span class="lineno"> 1692</span>&#160;</div>
+<div class="line"><a name="l01696"></a><span class="lineno"><a class="code" href="interface_a_map_walking.html#a9195d4a71f91efe4bfc48a2e3e378797"> 1696</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) <a class="code" href="interface_a_map_geo_point.html" title="搜索类使用的经纬度坐标类。 ">AMapGeoPoint</a> *origin; </div>
+<div class="line"><a name="l01697"></a><span class="lineno"> 1697</span>&#160;</div>
+<div class="line"><a name="l01701"></a><span class="lineno"><a class="code" href="interface_a_map_walking.html#a1aaf97f3c93024122f24f5622188d6c1"> 1701</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) <a class="code" href="interface_a_map_geo_point.html" title="搜索类使用的经纬度坐标类。 ">AMapGeoPoint</a> *destination; </div>
+<div class="line"><a name="l01702"></a><span class="lineno"> 1702</span>&#160;</div>
+<div class="line"><a name="l01706"></a><span class="lineno"><a class="code" href="interface_a_map_walking.html#af38a986d0a326217d865520bec629e86"> 1706</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) NSInteger distance;</div>
+<div class="line"><a name="l01707"></a><span class="lineno"> 1707</span>&#160; </div>
+<div class="line"><a name="l01711"></a><span class="lineno"><a class="code" href="interface_a_map_walking.html#a8d9c6127c8fcdcf62e3ffdf032e747da"> 1711</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) NSInteger duration; </div>
+<div class="line"><a name="l01712"></a><span class="lineno"> 1712</span>&#160;</div>
+<div class="line"><a name="l01716"></a><span class="lineno"><a class="code" href="interface_a_map_walking.html#a623387271f6f4ede8f50317297225925"> 1716</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSArray *steps; </div>
+<div class="line"><a name="l01717"></a><span class="lineno"> 1717</span>&#160;</div>
+<div class="line"><a name="l01718"></a><span class="lineno"> 1718</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l01719"></a><span class="lineno"> 1719</span>&#160;</div>
+<div class="line"><a name="l01720"></a><span class="lineno"> 1720</span>&#160;</div>
+<div class="line"><a name="l01724"></a><span class="lineno"><a class="code" href="interface_a_map_segment.html"> 1724</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_segment.html" title="公交换乘路段信息类。 ">AMapSegment</a> : NSObject</div>
+<div class="line"><a name="l01725"></a><span class="lineno"> 1725</span>&#160;</div>
+<div class="line"><a name="l01729"></a><span class="lineno"><a class="code" href="interface_a_map_segment.html#ac7cc248ef42b0f4e3f32f9340c2f9596"> 1729</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) <a class="code" href="interface_a_map_walking.html" title="公交路径规划的步行换乘信息类。 ">AMapWalking</a> *walking; </div>
+<div class="line"><a name="l01730"></a><span class="lineno"> 1730</span>&#160;</div>
+<div class="line"><a name="l01734"></a><span class="lineno"><a class="code" href="interface_a_map_segment.html#a67a6ea5c2c8b6345d39d45d68a688d2e"> 1734</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) <a class="code" href="interface_a_map_bus_line.html" title="公交线路信息类。 ">AMapBusLine</a> *busline; </div>
+<div class="line"><a name="l01735"></a><span class="lineno"> 1735</span>&#160;</div>
+<div class="line"><a name="l01739"></a><span class="lineno"><a class="code" href="interface_a_map_segment.html#afafd0edb58fbbe1e248e000147bf7afa"> 1739</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *enterName; </div>
+<div class="line"><a name="l01740"></a><span class="lineno"> 1740</span>&#160;</div>
+<div class="line"><a name="l01744"></a><span class="lineno"><a class="code" href="interface_a_map_segment.html#acb7b364d36e4023ca7789ce0abd69d8b"> 1744</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) <a class="code" href="interface_a_map_geo_point.html" title="搜索类使用的经纬度坐标类。 ">AMapGeoPoint</a> *enterLocation; </div>
+<div class="line"><a name="l01745"></a><span class="lineno"> 1745</span>&#160;</div>
+<div class="line"><a name="l01749"></a><span class="lineno"><a class="code" href="interface_a_map_segment.html#a172de8156b2eef10c5f303769aeb587a"> 1749</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSString *exitName; </div>
+<div class="line"><a name="l01750"></a><span class="lineno"> 1750</span>&#160;</div>
+<div class="line"><a name="l01754"></a><span class="lineno"><a class="code" href="interface_a_map_segment.html#a865dd34f7ef1693536cd50196ae159a2"> 1754</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) <a class="code" href="interface_a_map_geo_point.html" title="搜索类使用的经纬度坐标类。 ">AMapGeoPoint</a> *exitLocation; </div>
+<div class="line"><a name="l01755"></a><span class="lineno"> 1755</span>&#160;</div>
+<div class="line"><a name="l01756"></a><span class="lineno"> 1756</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l01757"></a><span class="lineno"> 1757</span>&#160;</div>
+<div class="line"><a name="l01758"></a><span class="lineno"> 1758</span>&#160;</div>
+<div class="line"><a name="l01759"></a><span class="lineno"> 1759</span>&#160;</div>
+<div class="line"><a name="l01763"></a><span class="lineno"><a class="code" href="interface_a_map_transit.html"> 1763</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_a_map_transit.html" title="公交路径规划的线路信息类，表示一次计算结果中某一条路线的信息。 ">AMapTransit</a> : NSObject</div>
+<div class="line"><a name="l01764"></a><span class="lineno"> 1764</span>&#160;</div>
+<div class="line"><a name="l01768"></a><span class="lineno"><a class="code" href="interface_a_map_transit.html#abdd81c5a0ffa247c6811a6f7678b2695"> 1768</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) CGFloat cost; </div>
+<div class="line"><a name="l01769"></a><span class="lineno"> 1769</span>&#160;</div>
+<div class="line"><a name="l01773"></a><span class="lineno"><a class="code" href="interface_a_map_transit.html#a8e2d479e47efae35b86bdcaaf540ddc5"> 1773</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) NSInteger duration; </div>
+<div class="line"><a name="l01774"></a><span class="lineno"> 1774</span>&#160;</div>
+<div class="line"><a name="l01778"></a><span class="lineno"><a class="code" href="interface_a_map_transit.html#a361fe39c29dd2d1c01a2dc6c1cd45631"> 1778</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) BOOL nightflag; </div>
+<div class="line"><a name="l01779"></a><span class="lineno"> 1779</span>&#160;</div>
+<div class="line"><a name="l01783"></a><span class="lineno"><a class="code" href="interface_a_map_transit.html#af5cf9770ff2231dfa3ded8430db52874"> 1783</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) NSInteger walkingDistance; </div>
+<div class="line"><a name="l01784"></a><span class="lineno"> 1784</span>&#160;</div>
+<div class="line"><a name="l01788"></a><span class="lineno"><a class="code" href="interface_a_map_transit.html#a327ba2a7bfc751f151c9340cef6f25ae"> 1788</a></span>&#160;<span class="keyword">@property</span> (nonatomic, strong) NSArray  *segments; </div>
+<div class="line"><a name="l01789"></a><span class="lineno"> 1789</span>&#160;</div>
+<div class="line"><a name="l01790"></a><span class="lineno"> 1790</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l01791"></a><span class="lineno"> 1791</span>&#160;</div>
+<div class="line"><a name="l01792"></a><span class="lineno"> 1792</span>&#160;</div>
+<div class="line"><a name="l01793"></a><span class="lineno"> 1793</span>&#160;</div>
+<div class="line"><a name="l01794"></a><span class="lineno"> 1794</span>&#160;</div>
+<div class="line"><a name="l01795"></a><span class="lineno"> 1795</span>&#160;</div>
+<div class="line"><a name="l01796"></a><span class="lineno"> 1796</span>&#160;</div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+﻿&#169; 2014 高德软件有限公司 版权所有，保留所有权利。 

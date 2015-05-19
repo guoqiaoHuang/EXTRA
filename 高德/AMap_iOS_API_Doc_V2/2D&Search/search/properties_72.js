@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['radius',['radius',['../interface_a_map_place_search_request.html#ae061912ee075b09cc6099ee342e6a6dc',1,'AMapPlaceSearchRequest::radius()'],['../interface_a_map_re_geocode_search_request.html#a74efc907f4057d8e7a148335289548d9',1,'AMapReGeocodeSearchRequest::radius()'],['../interface_m_a_circle.html#a818875c0f6ad6fd83d1a805dba15c3d3',1,'MACircle::radius()']]],
+  ['rating',['rating',['../interface_a_map_deep_content.html#acfd3722213426f2a4fac73b78cd2f064',1,'AMapDeepContent::rating()'],['../interface_a_map_biz_extention.html#a4f65f88961e4abf438a38ca906516967',1,'AMapBizExtention::rating()']]],
+  ['recommend',['recommend',['../interface_a_map_dining_deep_content.html#a276bc5fdda44ee3bb966330ffafd1cca',1,'AMapDiningDeepContent::recommend()'],['../interface_a_map_scenic_deep_content.html#ad486e5ff126d35d856bcee2d1d23eb66',1,'AMapScenicDeepContent::recommend()'],['../interface_a_map_p_o_i.html#a1e9431d8155acfbd07c830467b4ea789',1,'AMapPOI::recommend()']]],
+  ['regeocode',['regeocode',['../interface_a_map_re_geocode_search_response.html#a0d9ba286f373de6a16cdec12e1499b68',1,'AMapReGeocodeSearchResponse']]],
+  ['region',['region',['../interface_m_a_map_view.html#ab9db51dfb9a57a9dac7ef756917b0495',1,'MAMapView']]],
+  ['requirediscount',['requireDiscount',['../interface_a_map_place_search_request.html#a6ef75b37965556335b54f7deb8755c21',1,'AMapPlaceSearchRequest']]],
+  ['requireextension',['requireExtension',['../interface_a_map_place_search_request.html#ad2bda2d3e1d837a06dec7d95fb044982',1,'AMapPlaceSearchRequest::requireExtension()'],['../interface_a_map_re_geocode_search_request.html#a7853296f29607051a4f41f520206ea79',1,'AMapReGeocodeSearchRequest::requireExtension()'],['../interface_a_map_bus_line_search_request.html#a6946f211ce2b554f32473437685e6db2',1,'AMapBusLineSearchRequest::requireExtension()'],['../interface_a_map_navigation_search_request.html#a56c9fadfc1cd1b861ed7cb14121d1e58',1,'AMapNavigationSearchRequest::requireExtension()'],['../interface_a_map_district_search_request.html#a6f9f010ba86b92909dae3c7dad37a500',1,'AMapDistrictSearchRequest::requireExtension()']]],
+  ['requirefilter',['requireFilter',['../interface_a_map_place_search_filter.html#a78bfff14cf2e5eb5cc245d3cb25d0932',1,'AMapPlaceSearchFilter']]],
+  ['requiregroup',['requireGroup',['../interface_a_map_place_search_request.html#a19cff70bbecb20234e7f9988f64b3c0d',1,'AMapPlaceSearchRequest']]],
+  ['reuseidentifier',['reuseIdentifier',['../interface_m_a_annotation_view.html#a322f80fda27f7e0be3fefe1735bf32af',1,'MAAnnotationView']]],
+  ['richcontent',['richContent',['../interface_a_map_p_o_i.html#a84fffd0cbcd3308f9c01d1469bbb1a53',1,'AMapPOI']]],
+  ['rightcalloutaccessoryview',['rightCalloutAccessoryView',['../interface_m_a_annotation_view.html#a92f39aecf9e98fa9ecfe02c028857b44',1,'MAAnnotationView']]],
+  ['road',['road',['../interface_a_map_step.html#a1b3a15620ef8589e381eeb4fbf8921ae',1,'AMapStep']]],
+  ['roadinters',['roadinters',['../interface_a_map_re_geocode.html#ab8a4e2b9ac6bdac313385b9a568eb1e6',1,'AMapReGeocode']]],
+  ['roads',['roads',['../interface_a_map_re_geocode.html#a6a22b6bb174a3125a2081716adb6aafe',1,'AMapReGeocode']]],
+  ['rooms',['rooms',['../interface_a_map_hotel_deep_content.html#aab9718aafd62c4abfb3fd3320591ef8b',1,'AMapHotelDeepContent']]],
+  ['route',['route',['../interface_a_map_navigation_search_response.html#ab73e273024e7d6b26169f0dc705f8d16',1,'AMapNavigationSearchResponse']]]
+];

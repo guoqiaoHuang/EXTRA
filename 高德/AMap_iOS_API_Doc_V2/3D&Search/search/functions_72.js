@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['rectformaprect_3a',['rectForMapRect:',['../interface_m_a_overlay_view.html#af30d3dc8093c7910daad0a24d865fdc8',1,'MAOverlayView']]],
+  ['referencedidchange',['referenceDidChange',['../interface_m_a_overlay_view.html#a18effcd1490818d43cd137d5142cd071',1,'MAOverlayView']]],
+  ['regionthatfits_3a',['regionThatFits:',['../interface_m_a_map_view.html#ad341e45f0a9f22982aea40d7b3380584',1,'MAMapView']]],
+  ['reloadmap',['reloadMap',['../category_m_a_map_view_07_offline_08.html#a3de41fcd214edca2e1324359b2cbaa99',1,'MAMapView(Offline)::reloadMap()'],['../interface_m_a_map_view.html#a3de41fcd214edca2e1324359b2cbaa99',1,'MAMapView::reloadMap()']]],
+  ['removeannotation_3a',['removeAnnotation:',['../interface_m_a_map_view.html#a5256e2a0404a95d7e623b166f5c50bfa',1,'MAMapView']]],
+  ['removeannotations_3a',['removeAnnotations:',['../interface_m_a_map_view.html#a4848573321201d75f277c14a94285620',1,'MAMapView']]],
+  ['removeoverlay_3a',['removeOverlay:',['../category_m_a_map_view_07_overlays_a_p_i_08.html#a1413e9830dc1ebcf86571d3bc723cf64',1,'MAMapView(OverlaysAPI)::removeOverlay:()'],['../interface_m_a_map_view.html#a1413e9830dc1ebcf86571d3bc723cf64',1,'MAMapView::removeOverlay:()']]],
+  ['removeoverlays_3a',['removeOverlays:',['../category_m_a_map_view_07_overlays_a_p_i_08.html#a7bbe39937f1607bfa7dca00d8ffff80e',1,'MAMapView(OverlaysAPI)::removeOverlays:()'],['../interface_m_a_map_view.html#a7bbe39937f1607bfa7dca00d8ffff80e',1,'MAMapView::removeOverlays:()']]],
+  ['rendericonwithtextureid_3apoints_3a',['renderIconWithTextureID:points:',['../interface_m_a_overlay_view.html#ab8aebee2d40c1f7b1a78f3089c6259f5',1,'MAOverlayView']]],
+  ['rendericonwithtextureid_3apoints_3amodulatecolor_3a',['renderIconWithTextureID:points:modulateColor:',['../interface_m_a_overlay_view.html#a057e8970f74f7fe59ba8147ff13471e9',1,'MAOverlayView']]],
+  ['renderlineswithpoints_3apointcount_3astrokecolor_3alinewidth_3alooped_3a',['renderLinesWithPoints:pointCount:strokeColor:lineWidth:looped:',['../interface_m_a_overlay_view.html#ab469e6b197ae0685120433c505f0e362',1,'MAOverlayView']]],
+  ['renderlineswithpoints_3apointcount_3astrokecolor_3alinewidth_3alooped_3alinedash_3a',['renderLinesWithPoints:pointCount:strokeColor:lineWidth:looped:lineDash:',['../category_m_a_overlay_view_07_deprecated_08.html#a9706fec0a0d83c7f003376d600c67410',1,'MAOverlayView(Deprecated)::renderLinesWithPoints:pointCount:strokeColor:lineWidth:looped:lineDash:()'],['../interface_m_a_overlay_view.html#a9706fec0a0d83c7f003376d600c67410',1,'MAOverlayView::renderLinesWithPoints:pointCount:strokeColor:lineWidth:looped:lineDash:()']]],
+  ['renderlineswithpoints_3apointcount_3astrokecolor_3alinewidth_3alooped_3alinejointype_3alinecaptype_3alinedash_3a',['renderLinesWithPoints:pointCount:strokeColor:lineWidth:looped:LineJoinType:LineCapType:lineDash:',['../interface_m_a_overlay_view.html#addef0d185fa454de7f8a9de2128b1b7a',1,'MAOverlayView']]],
+  ['renderregionwithpoints_3apointcount_3afillcolor_3astrokelinewidth_3ausingtrianglefan_3a',['renderRegionWithPoints:pointCount:fillColor:strokeLineWidth:usingTriangleFan:',['../interface_m_a_overlay_view.html#ad7db4cea8285f222dbddae6d22974e92',1,'MAOverlayView']]],
+  ['renderregionwithpoints_3apointcount_3afillcolor_3ausingtrianglefan_3a',['renderRegionWithPoints:pointCount:fillColor:usingTriangleFan:',['../interface_m_a_overlay_view.html#afd57ae384f1005a50a1889d07e07f35d',1,'MAOverlayView']]],
+  ['rendertexturedlineswithpoints_3apointcount_3alinewidth_3atextureid_3alooped_3a',['renderTexturedLinesWithPoints:pointCount:lineWidth:textureID:looped:',['../interface_m_a_overlay_view.html#ab6877543cd65aaa5a6a0c437ca4fbb8c',1,'MAOverlayView']]]
+];
