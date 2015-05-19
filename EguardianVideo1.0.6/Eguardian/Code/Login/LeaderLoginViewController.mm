@@ -80,7 +80,10 @@
                                                       delegate:nil
                                              cancelButtonTitle:nil
                                              otherButtonTitles:@"确认",nil];
-        [alert show];
+//        [alert show];
+        LHomeViewController *hv = [[LHomeViewController alloc] init];
+
+        [self.navigationController pushViewController:hv animated:YES];
         [alert release];
     }
     
